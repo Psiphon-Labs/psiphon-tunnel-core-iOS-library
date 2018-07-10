@@ -11,4 +11,5 @@ Pod::Spec.new do |s|
 
     s.ios.deployment_target   = '9.0'
     s.ios.vendored_frameworks = 'PsiphonTunnel.framework'
+    s.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64 armv7 x86_64' }
 end  
