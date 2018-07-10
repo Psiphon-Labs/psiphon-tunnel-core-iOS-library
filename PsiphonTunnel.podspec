@@ -7,8 +7,8 @@ Pod::Spec.new do |s|
     #s.license           = { :type => 'GPL 3.0', :file => 'LICENSE.md' }
     s.license           = { :type => 'GPL' }
     s.platform          = :ios
-    s.source            = { :git => 'https://github.com/Psiphon-Labs/psiphon-tunnel-core-iOS-library.git' }
-    s.source_files      =  'Frameworks/PsiphonTunnel.framework/*'
+    s.source            = { :git => 'https://github.com/Psiphon-Labs/psiphon-tunnel-core-iOS-library.git', :tag => '1.0.6' }
+    s.source_files      =  'Frameworks/PsiphonTunnel.framework/Headers/*.h'
 
     s.ios.deployment_target   = '9.0'
     s.ios.vendored_frameworks = 'Frameworks/PsiphonTunnel.framework'
