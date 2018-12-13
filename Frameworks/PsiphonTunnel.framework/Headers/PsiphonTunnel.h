@@ -357,11 +357,25 @@ Swift: @code func onInternetReachabilityChanged(_ currentReachability: Reachabil
 - (void)stop;
 
 /*!
+ Indicate if the device is sleeping. This logs a diagnostic message and forces hasNetworkConnectivity to false when sleeping.
+ Swift: @code func setSleeping(_ isSleeping: Bool) @endcode
+ */
+- (void)setSleeping:(BOOL)isSleeping;
+
+/*!
  Returns the current tunnel connection state.
  @return  The current connection state.
  Swift: @code func getConnectionState() -> PsiphonConnectionState @endcode
  */
 - (PsiphonConnectionState)getConnectionState;
+
+/*!
+ Returns the current network reachability status, if Psiphon tunnel is not in a
+ disconnected state.
+ @return The current reachability status.
+ Swift: @code func getNetworkReachabilityStatus(_ status: UnsafeMutablePointer<NetworkStatus>!) -> Bool  @endcode
+ */
+- (BOOL)getNetworkReachabilityStatus:(NetworkStatus * _Nonnull)status;
 
 /*!
  Provides the port number of the local SOCKS proxy. Only valid when currently connected (will return 0 otherwise).
@@ -418,5 +432,15 @@ Swift: @code func onInternetReachabilityChanged(_ currentReachability: Reachabil
  Swift: @code func getBuildInfo() -> String @endcode
  */
 + (NSString * _Nonnull)getBuildInfo;
+
+#pragma mark - Profiling utitlities
+
+/*!
+ Writes Go runtime profile information to a set of files in the specifiec output directory.
+ @param cpuSampleDurationSeconds determines how to long to wait and sample profiles that require active sampling. When set to 0, these profiles are skipped.
+ @param blockSampleDurationSeconds determines how to long to wait and sample profiles that require active sampling. When set to 0, these profiles are skipped.
+ Swift: @code func writeRuntimeProfilesTo(_ outputDirectory: String, withCPUSampleDurationSeconds cpuSampleDurationSecond: Int, withBlockSampleDurationSeconds blockSampleDurationSeconds: Int) @endcode
+ */
+- (void)writeRuntimeProfilesTo:(NSString * _Nonnull)outputDirectory withCPUSampleDurationSeconds:(int)cpuSampleDurationSeconds withBlockSampleDurationSeconds:(int)blockSampleDurationSeconds;
 
  @end
