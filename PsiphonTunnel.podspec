@@ -8,9 +8,7 @@ Pod::Spec.new do |s|
     s.license           = { :type => 'GPL' }
     s.platform          = :ios
     s.source            = { :git => 'https://github.com/Psiphon-Labs/psiphon-tunnel-core-iOS-library.git', :tag => 'v' + s.version.to_s }
-    s.source_files      =  'Frameworks/PsiphonTunnel.framework/Headers/*.h'
 
-    s.ios.deployment_target   = '9.3'
-    s.ios.vendored_frameworks = 'Frameworks/PsiphonTunnel.framework'
-    s.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64 armv7 x86_64' }
+    s.ios.deployment_target   = '10.0'
+    s.ios.vendored_frameworks = 'Frameworks/PsiphonTunnel.xcframework'
 end  
