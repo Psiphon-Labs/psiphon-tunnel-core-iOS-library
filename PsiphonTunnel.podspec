@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|  
     s.name              = 'PsiphonTunnel'
-    s.version           = '2.0.29'
+    s.version           = '2.0.30'
     s.summary           = 'Psiphon tunnel iOS library'
     s.homepage          = 'https://psiphon3.com'
     s.author            = { 'Psiphon Inc' => 'info@psiphon.ca' }
