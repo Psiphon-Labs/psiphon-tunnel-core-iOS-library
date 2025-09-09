@@ -2,8 +2,8 @@
 triple:          'arm64-apple-darwin'
 binary-path:     '/Users/build/Library/Developer/Xcode/DerivedData/PsiphonTunnel-csfemocimaemcjamavrmqjufsfxu/Build/Intermediates.noindex/ArchiveIntermediates/PsiphonTunnel/InstallationBuildProductsLocation/Library/Frameworks/PsiphonTunnel.framework/PsiphonTunnel'
 relocations:
-  - { offset: 0x81209, size: 0x8, addend: 0x0, symName: _PsiphonTunnelVersionString, symObjAddr: 0x0, symBinAddr: 0x7F8698, symSize: 0x0 }
-  - { offset: 0x8123E, size: 0x8, addend: 0x0, symName: _PsiphonTunnelVersionNumber, symObjAddr: 0x38, symBinAddr: 0x7F86D0, symSize: 0x0 }
+  - { offset: 0x81209, size: 0x8, addend: 0x0, symName: _PsiphonTunnelVersionString, symObjAddr: 0x0, symBinAddr: 0x7F9398, symSize: 0x0 }
+  - { offset: 0x8123E, size: 0x8, addend: 0x0, symName: _PsiphonTunnelVersionNumber, symObjAddr: 0x38, symBinAddr: 0x7F93D0, symSize: 0x0 }
   - { offset: 0x8127B, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParser init]', symObjAddr: 0x0, symBinAddr: 0x1430, symSize: 0xB8 }
   - { offset: 0x81289, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParser parse:]', symObjAddr: 0x494, symBinAddr: 0x18C4, symSize: 0x578 }
   - { offset: 0x8152E, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParser init]', symObjAddr: 0x0, symBinAddr: 0x1430, symSize: 0xB8 }
@@ -40,7 +40,7 @@ relocations:
   - { offset: 0x81F67, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamWriter writeValue:]', symObjAddr: 0xC64, symBinAddr: 0x2E48, symSize: 0x1AC }
   - { offset: 0x81FD2, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamWriter writeString:]', symObjAddr: 0xE10, symBinAddr: 0x2FF4, symSize: 0x40C }
   - { offset: 0x820E6, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamWriter writeNumber:]', symObjAddr: 0x121C, symBinAddr: 0x3400, symSize: 0x280 }
-  - { offset: 0x8210B, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamWriter writeString:].cold.1', symObjAddr: 0x1594, symBinAddr: 0x7F3200, symSize: 0x38 }
+  - { offset: 0x8210B, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamWriter writeString:].cold.1', symObjAddr: 0x1594, symBinAddr: 0x7F3F00, symSize: 0x38 }
   - { offset: 0x8213A, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamWriter writeNumber:]', symObjAddr: 0x121C, symBinAddr: 0x3400, symSize: 0x280 }
   - { offset: 0x821B5, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamWriter state]', symObjAddr: 0x149C, symBinAddr: 0x3680, symSize: 0x18 }
   - { offset: 0x821EC, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamWriter setState:]', symObjAddr: 0x14B4, symBinAddr: 0x3698, symSize: 0xC }
@@ -232,8 +232,8 @@ relocations:
   - { offset: 0x87539, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamTokeniser .cxx_destruct]', symObjAddr: 0xA18, symBinAddr: 0x8800, symSize: 0x30 }
   - { offset: 0x875DD, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel init]', symObjAddr: 0x0, symBinAddr: 0x8830, symSize: 0x54 }
   - { offset: 0x875F7, size: 0x8, addend: 0x0, symName: _PsiphonTunnelErrorDomain, symObjAddr: 0x13250, symBinAddr: 0x95C280, symSize: 0x0 }
-  - { offset: 0x87617, size: 0x8, addend: 0x0, symName: _UseIPv6Synthesizer, symObjAddr: 0x13658, symBinAddr: 0x7F87F6, symSize: 0x0 }
-  - { offset: 0x87639, size: 0x8, addend: 0x0, symName: _UseHasIPv6RouteGetter, symObjAddr: 0x13659, symBinAddr: 0x7F87F7, symSize: 0x0 }
+  - { offset: 0x87617, size: 0x8, addend: 0x0, symName: _UseIPv6Synthesizer, symObjAddr: 0x13658, symBinAddr: 0x7F94F6, symSize: 0x0 }
+  - { offset: 0x87639, size: 0x8, addend: 0x0, symName: _UseHasIPv6RouteGetter, symObjAddr: 0x13659, symBinAddr: 0x7F94F7, symSize: 0x0 }
   - { offset: 0x87651, size: 0x8, addend: 0x0, symName: '+[PsiphonTunnel newPsiphonTunnel:]', symObjAddr: 0x4A4, symBinAddr: 0x8CC4, symSize: 0x114 }
   - { offset: 0x8767B, size: 0x8, addend: 0x0, symName: '_newPsiphonTunnel:.sharedInstance', symObjAddr: 0x2FA40, symBinAddr: 0x122D140, symSize: 0x0 }
   - { offset: 0x87691, size: 0x8, addend: 0x0, symName: '_newPsiphonTunnel:.onceToken', symObjAddr: 0x2FA48, symBinAddr: 0x122D148, symSize: 0x0 }
