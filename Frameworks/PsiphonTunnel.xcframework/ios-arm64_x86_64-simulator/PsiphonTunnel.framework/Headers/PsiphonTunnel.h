@@ -318,6 +318,8 @@ followed by a tunnel-core shutdown.
  @param bytesUp Bytes uploaded through the proxy since the last report.
  @param bytesDown Bytes downloaded through the proxy since the last report.
  */
+// TODO: Add personalRegionActivity and commonRegionActivity parameters
+// to match the new fields in the InproxyProxyActivity notice.
 - (void)onInproxyProxyActivity:(int)announcing
               connectingClients:(int)connectingClients
               connectedClients:(int)connectedClients
@@ -401,6 +403,11 @@ Returns the path where the rotated notices file will be created.
  @return TRUE if the connection start was successful, FALSE otherwise.
  */
 - (BOOL)stopAndReconnectWithCurrentSessionID;
+
+/*!
+ Notify Psiphon that the host app has resumed from background.
+ */
+- (void)appResumed;
 
 /*!
  Stop the tunnel (regardless of its current connection state).
