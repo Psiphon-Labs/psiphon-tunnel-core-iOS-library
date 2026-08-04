@@ -2,8 +2,8 @@
 triple:          'arm64-apple-darwin'
 binary-path:     '/Users/build/Library/Developer/Xcode/DerivedData/PsiphonTunnel-csfemocimaemcjamavrmqjufsfxu/Build/Intermediates.noindex/ArchiveIntermediates/PsiphonTunnel/InstallationBuildProductsLocation/Library/Frameworks/PsiphonTunnel.framework/PsiphonTunnel'
 relocations:
-  - { offset: 0x8120F, size: 0x8, addend: 0x0, symName: _PsiphonTunnelVersionString, symObjAddr: 0x0, symBinAddr: 0x815D18, symSize: 0x0 }
-  - { offset: 0x81244, size: 0x8, addend: 0x0, symName: _PsiphonTunnelVersionNumber, symObjAddr: 0x38, symBinAddr: 0x815D50, symSize: 0x0 }
+  - { offset: 0x8120F, size: 0x8, addend: 0x0, symName: _PsiphonTunnelVersionString, symObjAddr: 0x0, symBinAddr: 0x80B688, symSize: 0x0 }
+  - { offset: 0x81244, size: 0x8, addend: 0x0, symName: _PsiphonTunnelVersionNumber, symObjAddr: 0x38, symBinAddr: 0x80B6C0, symSize: 0x0 }
   - { offset: 0x81281, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParser init]', symObjAddr: 0x0, symBinAddr: 0x1430, symSize: 0xB8 }
   - { offset: 0x8128F, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParser parse:]', symObjAddr: 0x494, symBinAddr: 0x18C4, symSize: 0x578 }
   - { offset: 0x81534, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParser init]', symObjAddr: 0x0, symBinAddr: 0x1430, symSize: 0xB8 }
@@ -22,10 +22,10 @@ relocations:
   - { offset: 0x819A5, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParser setDelegate:]', symObjAddr: 0xD68, symBinAddr: 0x2198, symSize: 0xC }
   - { offset: 0x819E6, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParser .cxx_destruct]', symObjAddr: 0xD74, symBinAddr: 0x21A4, symSize: 0x40 }
   - { offset: 0x81A92, size: 0x8, addend: 0x0, symName: '+[SBJson4StreamWriter initialize]', symObjAddr: 0x0, symBinAddr: 0x21E4, symSize: 0xC0 }
-  - { offset: 0x81ABA, size: 0x8, addend: 0x0, symName: _kTrue, symObjAddr: 0x6F60, symBinAddr: 0x1324470, symSize: 0x0 }
-  - { offset: 0x81AD5, size: 0x8, addend: 0x0, symName: _kFalse, symObjAddr: 0x6F68, symBinAddr: 0x1324478, symSize: 0x0 }
-  - { offset: 0x81AEB, size: 0x8, addend: 0x0, symName: _kPositiveInfinity, symObjAddr: 0x6F50, symBinAddr: 0x1324460, symSize: 0x0 }
-  - { offset: 0x81B01, size: 0x8, addend: 0x0, symName: _kNegativeInfinity, symObjAddr: 0x6F58, symBinAddr: 0x1324468, symSize: 0x0 }
+  - { offset: 0x81ABA, size: 0x8, addend: 0x0, symName: _kTrue, symObjAddr: 0x6F60, symBinAddr: 0x1305130, symSize: 0x0 }
+  - { offset: 0x81AD5, size: 0x8, addend: 0x0, symName: _kFalse, symObjAddr: 0x6F68, symBinAddr: 0x1305138, symSize: 0x0 }
+  - { offset: 0x81AEB, size: 0x8, addend: 0x0, symName: _kPositiveInfinity, symObjAddr: 0x6F50, symBinAddr: 0x1305120, symSize: 0x0 }
+  - { offset: 0x81B01, size: 0x8, addend: 0x0, symName: _kNegativeInfinity, symObjAddr: 0x6F58, symBinAddr: 0x1305128, symSize: 0x0 }
   - { offset: 0x81C6E, size: 0x8, addend: 0x0, symName: '+[SBJson4StreamWriter initialize]', symObjAddr: 0x0, symBinAddr: 0x21E4, symSize: 0xC0 }
   - { offset: 0x81C9D, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamWriter init]', symObjAddr: 0xC0, symBinAddr: 0x22A4, symSize: 0xC4 }
   - { offset: 0x81CD4, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamWriter appendBytes:length:]', symObjAddr: 0x184, symBinAddr: 0x2368, symSize: 0x4C }
@@ -40,7 +40,7 @@ relocations:
   - { offset: 0x81F6D, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamWriter writeValue:]', symObjAddr: 0xC64, symBinAddr: 0x2E48, symSize: 0x1AC }
   - { offset: 0x81FD8, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamWriter writeString:]', symObjAddr: 0xE10, symBinAddr: 0x2FF4, symSize: 0x40C }
   - { offset: 0x820EC, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamWriter writeNumber:]', symObjAddr: 0x121C, symBinAddr: 0x3400, symSize: 0x280 }
-  - { offset: 0x82111, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamWriter writeString:].cold.1', symObjAddr: 0x1594, symBinAddr: 0x810724, symSize: 0x38 }
+  - { offset: 0x82111, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamWriter writeString:].cold.1', symObjAddr: 0x1594, symBinAddr: 0x80607C, symSize: 0x38 }
   - { offset: 0x82140, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamWriter writeNumber:]', symObjAddr: 0x121C, symBinAddr: 0x3400, symSize: 0x280 }
   - { offset: 0x821BB, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamWriter state]', symObjAddr: 0x149C, symBinAddr: 0x3680, symSize: 0x18 }
   - { offset: 0x821F2, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamWriter setState:]', symObjAddr: 0x14B4, symBinAddr: 0x3698, symSize: 0xC }
@@ -66,21 +66,21 @@ relocations:
   - { offset: 0x8284F, size: 0x8, addend: 0x0, symName: '+[PsiphonClientPlatform getClientPlatform]', symObjAddr: 0x0, symBinAddr: 0x3814, symSize: 0x324 }
   - { offset: 0x8299E, size: 0x8, addend: 0x0, symName: '+[SBJson4StreamWriterState sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x3B38, symSize: 0x8 }
   - { offset: 0x829BA, size: 0x8, addend: 0x0, symName: '+[SBJson4StreamWriterStateObjectStart sharedInstance]', symObjAddr: 0xDC, symBinAddr: 0x3C14, symSize: 0x84 }
-  - { offset: 0x829E4, size: 0x8, addend: 0x0, symName: _sharedInstance.state, symObjAddr: 0x42B0, symBinAddr: 0x1324480, symSize: 0x0 }
+  - { offset: 0x829E4, size: 0x8, addend: 0x0, symName: _sharedInstance.state, symObjAddr: 0x42B0, symBinAddr: 0x1305140, symSize: 0x0 }
   - { offset: 0x82A30, size: 0x8, addend: 0x0, symName: '+[SBJson4StreamWriterStateObjectKey sharedInstance]', symObjAddr: 0x1DC, symBinAddr: 0x3D14, symSize: 0x84 }
-  - { offset: 0x82A5A, size: 0x8, addend: 0x0, symName: _sharedInstance.state.11, symObjAddr: 0x42B8, symBinAddr: 0x1324488, symSize: 0x0 }
+  - { offset: 0x82A5A, size: 0x8, addend: 0x0, symName: _sharedInstance.state.11, symObjAddr: 0x42B8, symBinAddr: 0x1305148, symSize: 0x0 }
   - { offset: 0x82A7D, size: 0x8, addend: 0x0, symName: '+[SBJson4StreamWriterStateObjectValue sharedInstance]', symObjAddr: 0x274, symBinAddr: 0x3DAC, symSize: 0x84 }
-  - { offset: 0x82AA7, size: 0x8, addend: 0x0, symName: _sharedInstance.state.14, symObjAddr: 0x42C0, symBinAddr: 0x1324490, symSize: 0x0 }
+  - { offset: 0x82AA7, size: 0x8, addend: 0x0, symName: _sharedInstance.state.14, symObjAddr: 0x42C0, symBinAddr: 0x1305150, symSize: 0x0 }
   - { offset: 0x82ACA, size: 0x8, addend: 0x0, symName: '+[SBJson4StreamWriterStateArrayStart sharedInstance]', symObjAddr: 0x378, symBinAddr: 0x3EB0, symSize: 0x84 }
-  - { offset: 0x82AF4, size: 0x8, addend: 0x0, symName: _sharedInstance.state.19, symObjAddr: 0x42C8, symBinAddr: 0x1324498, symSize: 0x0 }
+  - { offset: 0x82AF4, size: 0x8, addend: 0x0, symName: _sharedInstance.state.19, symObjAddr: 0x42C8, symBinAddr: 0x1305158, symSize: 0x0 }
   - { offset: 0x82B17, size: 0x8, addend: 0x0, symName: '+[SBJson4StreamWriterStateArrayValue sharedInstance]', symObjAddr: 0x454, symBinAddr: 0x3F8C, symSize: 0x84 }
-  - { offset: 0x82B41, size: 0x8, addend: 0x0, symName: _sharedInstance.state.22, symObjAddr: 0x42D0, symBinAddr: 0x13244A0, symSize: 0x0 }
+  - { offset: 0x82B41, size: 0x8, addend: 0x0, symName: _sharedInstance.state.22, symObjAddr: 0x42D0, symBinAddr: 0x1305160, symSize: 0x0 }
   - { offset: 0x82B64, size: 0x8, addend: 0x0, symName: '+[SBJson4StreamWriterStateStart sharedInstance]', symObjAddr: 0x4EC, symBinAddr: 0x4024, symSize: 0x84 }
-  - { offset: 0x82B8E, size: 0x8, addend: 0x0, symName: _sharedInstance.state.24, symObjAddr: 0x42D8, symBinAddr: 0x13244A8, symSize: 0x0 }
+  - { offset: 0x82B8E, size: 0x8, addend: 0x0, symName: _sharedInstance.state.24, symObjAddr: 0x42D8, symBinAddr: 0x1305168, symSize: 0x0 }
   - { offset: 0x82BB1, size: 0x8, addend: 0x0, symName: '+[SBJson4StreamWriterStateComplete sharedInstance]', symObjAddr: 0x5CC, symBinAddr: 0x4104, symSize: 0x84 }
-  - { offset: 0x82BDB, size: 0x8, addend: 0x0, symName: _sharedInstance.state.27, symObjAddr: 0x42E0, symBinAddr: 0x13244B0, symSize: 0x0 }
+  - { offset: 0x82BDB, size: 0x8, addend: 0x0, symName: _sharedInstance.state.27, symObjAddr: 0x42E0, symBinAddr: 0x1305170, symSize: 0x0 }
   - { offset: 0x82BFE, size: 0x8, addend: 0x0, symName: '+[SBJson4StreamWriterStateError sharedInstance]', symObjAddr: 0x674, symBinAddr: 0x41AC, symSize: 0x84 }
-  - { offset: 0x82C28, size: 0x8, addend: 0x0, symName: _sharedInstance.state.31, symObjAddr: 0x42E8, symBinAddr: 0x13244B8, symSize: 0x0 }
+  - { offset: 0x82C28, size: 0x8, addend: 0x0, symName: _sharedInstance.state.31, symObjAddr: 0x42E8, symBinAddr: 0x1305178, symSize: 0x0 }
   - { offset: 0x82CD3, size: 0x8, addend: 0x0, symName: '+[SBJson4StreamWriterState sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x3B38, symSize: 0x8 }
   - { offset: 0x82D06, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamWriterState isInvalidState:]', symObjAddr: 0x8, symBinAddr: 0x3B40, symSize: 0x8 }
   - { offset: 0x82D45, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamWriterState appendSeparator:]', symObjAddr: 0x10, symBinAddr: 0x3B48, symSize: 0x4 }
@@ -194,274 +194,275 @@ relocations:
   - { offset: 0x8638B, size: 0x8, addend: 0x0, symName: '+[NetworkInterface getActiveInterface:currentNetworkStatus:]', symObjAddr: 0x48C, symBinAddr: 0x7084, symSize: 0x268 }
   - { offset: 0x86424, size: 0x8, addend: 0x0, symName: '+[NetworkInterface getActiveInterfaceWithReachability:andCurrentNetworkStatus:error:]', symObjAddr: 0x6F4, symBinAddr: 0x72EC, symSize: 0x3A4 }
   - { offset: 0x86500, size: 0x8, addend: 0x0, symName: '+[NetworkInterface getActiveInterfaceAddressWithReachability:andCurrentNetworkStatus:error:]', symObjAddr: 0xA98, symBinAddr: 0x7690, symSize: 0x364 }
-  - { offset: 0x86752, size: 0x8, addend: 0x0, symName: '+[Reachability(ReachabilityProtocol) reachabilityChangedNotification]', symObjAddr: 0x0, symBinAddr: 0x79F4, symSize: 0x10 }
-  - { offset: 0x867AF, size: 0x8, addend: 0x0, symName: '+[Reachability(ReachabilityProtocol) reachabilityChangedNotification]', symObjAddr: 0x0, symBinAddr: 0x79F4, symSize: 0x10 }
-  - { offset: 0x867E2, size: 0x8, addend: 0x0, symName: '-[Reachability(ReachabilityProtocol) reachabilityStatus]', symObjAddr: 0x10, symBinAddr: 0x7A04, symSize: 0x4C }
-  - { offset: 0x86829, size: 0x8, addend: 0x0, symName: '-[Reachability(ReachabilityProtocol) reachabilityStatusDebugInfo]', symObjAddr: 0x5C, symBinAddr: 0x7A50, symSize: 0x4 }
-  - { offset: 0x868FA, size: 0x8, addend: 0x0, symName: '-[SBJson4Writer init]', symObjAddr: 0x0, symBinAddr: 0x7A54, symSize: 0x54 }
-  - { offset: 0x869FB, size: 0x8, addend: 0x0, symName: '-[SBJson4Writer init]', symObjAddr: 0x0, symBinAddr: 0x7A54, symSize: 0x54 }
-  - { offset: 0x86A32, size: 0x8, addend: 0x0, symName: '-[SBJson4Writer stringWithObject:]', symObjAddr: 0x54, symBinAddr: 0x7AA8, symSize: 0x5C }
-  - { offset: 0x86A89, size: 0x8, addend: 0x0, symName: '-[SBJson4Writer dataWithObject:]', symObjAddr: 0xB0, symBinAddr: 0x7B04, symSize: 0x1FC }
-  - { offset: 0x86AF0, size: 0x8, addend: 0x0, symName: '-[SBJson4Writer writer:appendBytes:length:]', symObjAddr: 0x2AC, symBinAddr: 0x7D00, symSize: 0x48 }
-  - { offset: 0x86B4F, size: 0x8, addend: 0x0, symName: '-[SBJson4Writer maxDepth]', symObjAddr: 0x2F4, symBinAddr: 0x7D48, symSize: 0x8 }
-  - { offset: 0x86B86, size: 0x8, addend: 0x0, symName: '-[SBJson4Writer setMaxDepth:]', symObjAddr: 0x2FC, symBinAddr: 0x7D50, symSize: 0x8 }
-  - { offset: 0x86BC3, size: 0x8, addend: 0x0, symName: '-[SBJson4Writer error]', symObjAddr: 0x304, symBinAddr: 0x7D58, symSize: 0x8 }
-  - { offset: 0x86BFA, size: 0x8, addend: 0x0, symName: '-[SBJson4Writer setError:]', symObjAddr: 0x30C, symBinAddr: 0x7D60, symSize: 0x8 }
-  - { offset: 0x86C39, size: 0x8, addend: 0x0, symName: '-[SBJson4Writer humanReadable]', symObjAddr: 0x314, symBinAddr: 0x7D68, symSize: 0x8 }
-  - { offset: 0x86C70, size: 0x8, addend: 0x0, symName: '-[SBJson4Writer setHumanReadable:]', symObjAddr: 0x31C, symBinAddr: 0x7D70, symSize: 0x8 }
-  - { offset: 0x86CAB, size: 0x8, addend: 0x0, symName: '-[SBJson4Writer sortKeys]', symObjAddr: 0x324, symBinAddr: 0x7D78, symSize: 0x8 }
-  - { offset: 0x86CE2, size: 0x8, addend: 0x0, symName: '-[SBJson4Writer setSortKeys:]', symObjAddr: 0x32C, symBinAddr: 0x7D80, symSize: 0x8 }
-  - { offset: 0x86D1D, size: 0x8, addend: 0x0, symName: '-[SBJson4Writer sortKeysComparator]', symObjAddr: 0x334, symBinAddr: 0x7D88, symSize: 0x8 }
-  - { offset: 0x86D54, size: 0x8, addend: 0x0, symName: '-[SBJson4Writer setSortKeysComparator:]', symObjAddr: 0x33C, symBinAddr: 0x7D90, symSize: 0x8 }
-  - { offset: 0x86D93, size: 0x8, addend: 0x0, symName: '-[SBJson4Writer acc]', symObjAddr: 0x344, symBinAddr: 0x7D98, symSize: 0x8 }
-  - { offset: 0x86DCA, size: 0x8, addend: 0x0, symName: '-[SBJson4Writer setAcc:]', symObjAddr: 0x34C, symBinAddr: 0x7DA0, symSize: 0xC }
-  - { offset: 0x86E0B, size: 0x8, addend: 0x0, symName: '-[SBJson4Writer .cxx_destruct]', symObjAddr: 0x358, symBinAddr: 0x7DAC, symSize: 0x3C }
-  - { offset: 0x86F31, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamTokeniser setError:]', symObjAddr: 0x0, symBinAddr: 0x7DE8, symSize: 0x58 }
-  - { offset: 0x87036, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamTokeniser setError:]', symObjAddr: 0x0, symBinAddr: 0x7DE8, symSize: 0x58 }
-  - { offset: 0x87079, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamTokeniser appendData:]', symObjAddr: 0x58, symBinAddr: 0x7E40, symSize: 0x9C }
-  - { offset: 0x870BC, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamTokeniser skipWhitespace]', symObjAddr: 0xF4, symBinAddr: 0x7EDC, symSize: 0x78 }
-  - { offset: 0x870EF, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamTokeniser getUnichar:]', symObjAddr: 0x16C, symBinAddr: 0x7F54, symSize: 0x38 }
-  - { offset: 0x87136, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamTokeniser haveOneMoreCharacter]', symObjAddr: 0x1A4, symBinAddr: 0x7F8C, symSize: 0x8 }
-  - { offset: 0x8716B, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamTokeniser haveRemainingCharacters:]', symObjAddr: 0x1AC, symBinAddr: 0x7F94, symSize: 0x38 }
-  - { offset: 0x871B2, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamTokeniser match:retval:token:length:]', symObjAddr: 0x1E4, symBinAddr: 0x7FCC, symSize: 0xD8 }
-  - { offset: 0x872A1, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamTokeniser decodeHexQuad:]', symObjAddr: 0x2BC, symBinAddr: 0x80A4, symSize: 0x80 }
-  - { offset: 0x87334, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamTokeniser getStringToken:length:]', symObjAddr: 0x33C, symBinAddr: 0x8124, symSize: 0x280 }
-  - { offset: 0x873D9, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamTokeniser getNumberToken:length:]', symObjAddr: 0x5BC, symBinAddr: 0x83A4, symSize: 0x238 }
-  - { offset: 0x8747B, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamTokeniser getToken:length:]', symObjAddr: 0x7F4, symBinAddr: 0x85DC, symSize: 0x21C }
-  - { offset: 0x87508, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamTokeniser error]', symObjAddr: 0xA10, symBinAddr: 0x87F8, symSize: 0x8 }
-  - { offset: 0x8753F, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamTokeniser .cxx_destruct]', symObjAddr: 0xA18, symBinAddr: 0x8800, symSize: 0x30 }
-  - { offset: 0x875E3, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel init]', symObjAddr: 0x0, symBinAddr: 0x8830, symSize: 0x54 }
-  - { offset: 0x875FD, size: 0x8, addend: 0x0, symName: _PsiphonTunnelErrorDomain, symObjAddr: 0x13C48, symBinAddr: 0x1008280, symSize: 0x0 }
-  - { offset: 0x8764B, size: 0x8, addend: 0x0, symName: _UseIPv6Synthesizer, symObjAddr: 0x14020, symBinAddr: 0x815E76, symSize: 0x0 }
-  - { offset: 0x8766D, size: 0x8, addend: 0x0, symName: _UseHasIPv6RouteGetter, symObjAddr: 0x14021, symBinAddr: 0x815E77, symSize: 0x0 }
-  - { offset: 0x87685, size: 0x8, addend: 0x0, symName: '+[PsiphonTunnel newPsiphonTunnel:]', symObjAddr: 0x4A4, symBinAddr: 0x8CC4, symSize: 0x114 }
-  - { offset: 0x876AF, size: 0x8, addend: 0x0, symName: '_newPsiphonTunnel:.sharedInstance', symObjAddr: 0x31AC8, symBinAddr: 0x13244C0, symSize: 0x0 }
-  - { offset: 0x876C5, size: 0x8, addend: 0x0, symName: '_newPsiphonTunnel:.onceToken', symObjAddr: 0x31AD0, symBinAddr: 0x13244C8, symSize: 0x0 }
-  - { offset: 0x878D6, size: 0x8, addend: 0x0, symName: '+[PsiphonTunnel generateSessionID:]', symObjAddr: 0x8430, symBinAddr: 0x10B90, symSize: 0x16C }
-  - { offset: 0x87A47, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel init]', symObjAddr: 0x0, symBinAddr: 0x8830, symSize: 0x54 }
-  - { offset: 0x87A7E, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel initWithAppDelegate:]', symObjAddr: 0x54, symBinAddr: 0x8884, symSize: 0x6C }
-  - { offset: 0x87AC5, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel initializeWithAppDelegate:]', symObjAddr: 0xC0, symBinAddr: 0x88F0, symSize: 0x1A0 }
-  - { offset: 0x87B9A, size: 0x8, addend: 0x0, symName: '___43-[PsiphonTunnel initializeWithAppDelegate:]_block_invoke', symObjAddr: 0x260, symBinAddr: 0x8A90, symSize: 0x48 }
-  - { offset: 0x87BE9, size: 0x8, addend: 0x0, symName: '+[PsiphonTunnel defaultDataRootDirectoryWithError:]', symObjAddr: 0x2B8, symBinAddr: 0x8AD8, symSize: 0x78 }
-  - { offset: 0x87C3C, size: 0x8, addend: 0x0, symName: '+[PsiphonTunnel homepageFilePath:]', symObjAddr: 0x330, symBinAddr: 0x8B50, symSize: 0x7C }
-  - { offset: 0x87C9F, size: 0x8, addend: 0x0, symName: '+[PsiphonTunnel noticesFilePath:]', symObjAddr: 0x3AC, symBinAddr: 0x8BCC, symSize: 0x7C }
-  - { offset: 0x87D02, size: 0x8, addend: 0x0, symName: '+[PsiphonTunnel olderNoticesFilePath:]', symObjAddr: 0x428, symBinAddr: 0x8C48, symSize: 0x7C }
-  - { offset: 0x87DAC, size: 0x8, addend: 0x0, symName: '___34+[PsiphonTunnel newPsiphonTunnel:]_block_invoke', symObjAddr: 0x5B8, symBinAddr: 0x8DD8, symSize: 0x3C }
-  - { offset: 0x87DFB, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel start:]', symObjAddr: 0x5F4, symBinAddr: 0x8E14, symSize: 0x100 }
-  - { offset: 0x87E62, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel reconnectWithConfig::]', symObjAddr: 0x6F4, symBinAddr: 0x8F14, symSize: 0xB0 }
-  - { offset: 0x87F1C, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel stopAndReconnectWithCurrentSessionID]', symObjAddr: 0x7A4, symBinAddr: 0x8FC4, symSize: 0x48 }
-  - { offset: 0x87F54, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel appResumed]', symObjAddr: 0x7EC, symBinAddr: 0x900C, symSize: 0x4 }
-  - { offset: 0x87F87, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel appResumed]', symObjAddr: 0x7EC, symBinAddr: 0x900C, symSize: 0x4 }
-  - { offset: 0x87F9A, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel start]', symObjAddr: 0x7F0, symBinAddr: 0x9010, symSize: 0x490 }
-  - { offset: 0x88122, size: 0x8, addend: 0x0, symName: ___Block_byref_object_copy_, symObjAddr: 0xC80, symBinAddr: 0x94A0, symSize: 0x10 }
-  - { offset: 0x88147, size: 0x8, addend: 0x0, symName: ___Block_byref_object_dispose_, symObjAddr: 0xC90, symBinAddr: 0x94B0, symSize: 0x8 }
-  - { offset: 0x88166, size: 0x8, addend: 0x0, symName: '___22-[PsiphonTunnel start]_block_invoke', symObjAddr: 0xC98, symBinAddr: 0x94B8, symSize: 0x84 }
-  - { offset: 0x881B9, size: 0x8, addend: 0x0, symName: '___22-[PsiphonTunnel start]_block_invoke.31', symObjAddr: 0xD7C, symBinAddr: 0x953C, symSize: 0x58 }
-  - { offset: 0x8820C, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel startIfNeeded]', symObjAddr: 0xDD4, symBinAddr: 0x9594, symSize: 0x144 }
-  - { offset: 0x882B9, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel stop]', symObjAddr: 0xF18, symBinAddr: 0x96D8, symSize: 0xDC }
-  - { offset: 0x88303, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel getConnectionState]', symObjAddr: 0xFF4, symBinAddr: 0x97B4, symSize: 0xC }
-  - { offset: 0x8833B, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel getNetworkReachabilityStatus:]', symObjAddr: 0x1000, symBinAddr: 0x97C0, symSize: 0x3C }
-  - { offset: 0x88395, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel getLocalSocksProxyPort]', symObjAddr: 0x103C, symBinAddr: 0x97FC, symSize: 0xC }
-  - { offset: 0x883CD, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel getLocalHttpProxyPort]', symObjAddr: 0x1048, symBinAddr: 0x9808, symSize: 0xC }
-  - { offset: 0x88405, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel getPacketTunnelMTU]', symObjAddr: 0x1054, symBinAddr: 0x9814, symSize: 0x4 }
-  - { offset: 0x8843C, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel getPacketTunnelMTU]', symObjAddr: 0x1054, symBinAddr: 0x9814, symSize: 0x4 }
-  - { offset: 0x88453, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel importPushPayload:]', symObjAddr: 0x1058, symBinAddr: 0x9818, symSize: 0x8 }
-  - { offset: 0x884C6, size: 0x8, addend: 0x0, symName: '+[PsiphonTunnel getBuildInfo]', symObjAddr: 0x1060, symBinAddr: 0x9820, symSize: 0x4 }
-  - { offset: 0x884FD, size: 0x8, addend: 0x0, symName: '+[PsiphonTunnel getBuildInfo]', symObjAddr: 0x1060, symBinAddr: 0x9820, symSize: 0x4 }
-  - { offset: 0x88514, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel writeRuntimeProfilesTo:withCPUSampleDurationSeconds:withBlockSampleDurationSeconds:]', symObjAddr: 0x1064, symBinAddr: 0x9824, symSize: 0x10 }
-  - { offset: 0x885A3, size: 0x8, addend: 0x0, symName: '+[PsiphonTunnel libraryURLWithError:]', symObjAddr: 0x1074, symBinAddr: 0x9834, symSize: 0x134 }
-  - { offset: 0x8861B, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel getConfig:error:]', symObjAddr: 0x11A8, symBinAddr: 0x9968, symSize: 0x2D8 }
-  - { offset: 0x886E5, size: 0x8, addend: 0x0, symName: '___33-[PsiphonTunnel getConfig:error:]_block_invoke', symObjAddr: 0x1480, symBinAddr: 0x9C40, symSize: 0x58 }
-  - { offset: 0x88738, size: 0x8, addend: 0x0, symName: '___33-[PsiphonTunnel getConfig:error:]_block_invoke_2', symObjAddr: 0x14D8, symBinAddr: 0x9C98, symSize: 0x50 }
-  - { offset: 0x887A7, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32w, symObjAddr: 0x1528, symBinAddr: 0x9CE8, symSize: 0xC }
-  - { offset: 0x887D0, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32w, symObjAddr: 0x1534, symBinAddr: 0x9CF4, symSize: 0x8 }
-  - { offset: 0x887EF, size: 0x8, addend: 0x0, symName: '+[PsiphonTunnel buildPsiphonConfig:tunnelWholeDevice:usingNoticeFiles:sessionID:logMessage:error:]', symObjAddr: 0x153C, symBinAddr: 0x9CFC, symSize: 0x1230 }
-  - { offset: 0x88AF1, size: 0x8, addend: 0x0, symName: '___98+[PsiphonTunnel buildPsiphonConfig:tunnelWholeDevice:usingNoticeFiles:sessionID:logMessage:error:]_block_invoke', symObjAddr: 0x276C, symBinAddr: 0xAF2C, symSize: 0x5C }
-  - { offset: 0x88B51, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32r, symObjAddr: 0x27C8, symBinAddr: 0xAF88, symSize: 0x10 }
-  - { offset: 0x88B7A, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32r, symObjAddr: 0x27D8, symBinAddr: 0xAF98, symSize: 0xC }
-  - { offset: 0x88B99, size: 0x8, addend: 0x0, symName: '___98+[PsiphonTunnel buildPsiphonConfig:tunnelWholeDevice:usingNoticeFiles:sessionID:logMessage:error:]_block_invoke.52', symObjAddr: 0x27E4, symBinAddr: 0xAFA4, symSize: 0x140 }
-  - { offset: 0x88C19, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel handlePsiphonNotice:]', symObjAddr: 0x2924, symBinAddr: 0xB0E4, symSize: 0x1D78 }
-  - { offset: 0x8923D, size: 0x8, addend: 0x0, symName: '___37-[PsiphonTunnel handlePsiphonNotice:]_block_invoke', symObjAddr: 0x469C, symBinAddr: 0xCE5C, symSize: 0x5C }
-  - { offset: 0x8929D, size: 0x8, addend: 0x0, symName: '___37-[PsiphonTunnel handlePsiphonNotice:]_block_invoke_2', symObjAddr: 0x46F8, symBinAddr: 0xCEB8, symSize: 0xB0 }
-  - { offset: 0x89301, size: 0x8, addend: 0x0, symName: '___37-[PsiphonTunnel handlePsiphonNotice:]_block_invoke.183', symObjAddr: 0x47A8, symBinAddr: 0xCF68, symSize: 0x34 }
-  - { offset: 0x89343, size: 0x8, addend: 0x0, symName: '___37-[PsiphonTunnel handlePsiphonNotice:]_block_invoke.192', symObjAddr: 0x47DC, symBinAddr: 0xCF9C, symSize: 0x3C }
-  - { offset: 0x89396, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s, symObjAddr: 0x4818, symBinAddr: 0xCFD8, symSize: 0x28 }
-  - { offset: 0x893BF, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s, symObjAddr: 0x4840, symBinAddr: 0xD000, symSize: 0x28 }
-  - { offset: 0x893DE, size: 0x8, addend: 0x0, symName: '___37-[PsiphonTunnel handlePsiphonNotice:]_block_invoke.201', symObjAddr: 0x4868, symBinAddr: 0xD028, symSize: 0x48 }
-  - { offset: 0x89431, size: 0x8, addend: 0x0, symName: '___37-[PsiphonTunnel handlePsiphonNotice:]_block_invoke_2.208', symObjAddr: 0x48B0, symBinAddr: 0xD070, symSize: 0x48 }
-  - { offset: 0x89484, size: 0x8, addend: 0x0, symName: '___37-[PsiphonTunnel handlePsiphonNotice:]_block_invoke_3', symObjAddr: 0x48F8, symBinAddr: 0xD0B8, symSize: 0x3C }
-  - { offset: 0x894D7, size: 0x8, addend: 0x0, symName: '___37-[PsiphonTunnel handlePsiphonNotice:]_block_invoke_4', symObjAddr: 0x4934, symBinAddr: 0xD0F4, symSize: 0x3C }
-  - { offset: 0x8952A, size: 0x8, addend: 0x0, symName: '___37-[PsiphonTunnel handlePsiphonNotice:]_block_invoke_5', symObjAddr: 0x4970, symBinAddr: 0xD130, symSize: 0x3C }
-  - { offset: 0x8957D, size: 0x8, addend: 0x0, symName: '___37-[PsiphonTunnel handlePsiphonNotice:]_block_invoke_6', symObjAddr: 0x49AC, symBinAddr: 0xD16C, symSize: 0x3C }
-  - { offset: 0x895D0, size: 0x8, addend: 0x0, symName: '___37-[PsiphonTunnel handlePsiphonNotice:]_block_invoke_7', symObjAddr: 0x49E8, symBinAddr: 0xD1A8, symSize: 0x3C }
-  - { offset: 0x89623, size: 0x8, addend: 0x0, symName: '___37-[PsiphonTunnel handlePsiphonNotice:]_block_invoke_8', symObjAddr: 0x4A24, symBinAddr: 0xD1E4, symSize: 0x3C }
-  - { offset: 0x89676, size: 0x8, addend: 0x0, symName: '___37-[PsiphonTunnel handlePsiphonNotice:]_block_invoke_9', symObjAddr: 0x4A60, symBinAddr: 0xD220, symSize: 0x3C }
-  - { offset: 0x896C9, size: 0x8, addend: 0x0, symName: '___37-[PsiphonTunnel handlePsiphonNotice:]_block_invoke_10', symObjAddr: 0x4A9C, symBinAddr: 0xD25C, symSize: 0x3C }
-  - { offset: 0x8971C, size: 0x8, addend: 0x0, symName: '___37-[PsiphonTunnel handlePsiphonNotice:]_block_invoke_11', symObjAddr: 0x4AD8, symBinAddr: 0xD298, symSize: 0x3C }
-  - { offset: 0x8976F, size: 0x8, addend: 0x0, symName: '___37-[PsiphonTunnel handlePsiphonNotice:]_block_invoke_12', symObjAddr: 0x4B14, symBinAddr: 0xD2D4, symSize: 0x3C }
-  - { offset: 0x897C2, size: 0x8, addend: 0x0, symName: '___37-[PsiphonTunnel handlePsiphonNotice:]_block_invoke_13', symObjAddr: 0x4B50, symBinAddr: 0xD310, symSize: 0x60 }
-  - { offset: 0x89826, size: 0x8, addend: 0x0, symName: '___37-[PsiphonTunnel handlePsiphonNotice:]_block_invoke.301', symObjAddr: 0x4C10, symBinAddr: 0xD370, symSize: 0x3C }
-  - { offset: 0x89879, size: 0x8, addend: 0x0, symName: '___37-[PsiphonTunnel handlePsiphonNotice:]_block_invoke_2.310', symObjAddr: 0x4C4C, symBinAddr: 0xD3AC, symSize: 0x3C }
-  - { offset: 0x898CC, size: 0x8, addend: 0x0, symName: '___37-[PsiphonTunnel handlePsiphonNotice:]_block_invoke_3.321', symObjAddr: 0x4C88, symBinAddr: 0xD3E8, symSize: 0x60 }
-  - { offset: 0x89930, size: 0x8, addend: 0x0, symName: '___37-[PsiphonTunnel handlePsiphonNotice:]_block_invoke_4.336', symObjAddr: 0x4CE8, symBinAddr: 0xD448, symSize: 0x40 }
-  - { offset: 0x899A5, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s56s, symObjAddr: 0x4D28, symBinAddr: 0xD488, symSize: 0x38 }
-  - { offset: 0x899CE, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56s, symObjAddr: 0x4D60, symBinAddr: 0xD4C0, symSize: 0x38 }
-  - { offset: 0x899ED, size: 0x8, addend: 0x0, symName: '___37-[PsiphonTunnel handlePsiphonNotice:]_block_invoke.345', symObjAddr: 0x4D98, symBinAddr: 0xD4F8, symSize: 0x3C }
-  - { offset: 0x89A40, size: 0x8, addend: 0x0, symName: '___37-[PsiphonTunnel handlePsiphonNotice:]_block_invoke_2.350', symObjAddr: 0x4DD4, symBinAddr: 0xD534, symSize: 0x34 }
-  - { offset: 0x89A82, size: 0x8, addend: 0x0, symName: '___37-[PsiphonTunnel handlePsiphonNotice:]_block_invoke_3.367', symObjAddr: 0x4E08, symBinAddr: 0xD568, symSize: 0x98 }
-  - { offset: 0x89B19, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s56s64s72s, symObjAddr: 0x4EA0, symBinAddr: 0xD600, symSize: 0x48 }
-  - { offset: 0x89B42, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56s64s72s, symObjAddr: 0x4EE8, symBinAddr: 0xD648, symSize: 0x48 }
-  - { offset: 0x89B61, size: 0x8, addend: 0x0, symName: '___37-[PsiphonTunnel handlePsiphonNotice:]_block_invoke.376', symObjAddr: 0x4F30, symBinAddr: 0xD690, symSize: 0x3C }
-  - { offset: 0x89BB4, size: 0x8, addend: 0x0, symName: '___37-[PsiphonTunnel handlePsiphonNotice:]_block_invoke_2.381', symObjAddr: 0x4F6C, symBinAddr: 0xD6CC, symSize: 0x34 }
-  - { offset: 0x89BF6, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel logMessage:]', symObjAddr: 0x4FA0, symBinAddr: 0xD700, symSize: 0xAC }
-  - { offset: 0x89C77, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel postDiagnosticMessage:withTimestamp:]', symObjAddr: 0x504C, symBinAddr: 0xD7AC, symSize: 0xF4 }
-  - { offset: 0x89CEA, size: 0x8, addend: 0x0, symName: '___53-[PsiphonTunnel postDiagnosticMessage:withTimestamp:]_block_invoke', symObjAddr: 0x5140, symBinAddr: 0xD8A0, symSize: 0x3C }
-  - { offset: 0x89D4E, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel bindToDevice:error:]', symObjAddr: 0x517C, symBinAddr: 0xD8DC, symSize: 0xD4 }
-  - { offset: 0x89DA0, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel getDNSServersAsString]', symObjAddr: 0x5250, symBinAddr: 0xD9B0, symSize: 0x3C }
-  - { offset: 0x89DD8, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel hasNetworkConnectivity]', symObjAddr: 0x528C, symBinAddr: 0xD9EC, symSize: 0x44 }
-  - { offset: 0x89E1D, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel iPv6Synthesize:]', symObjAddr: 0x52D0, symBinAddr: 0xDA30, symSize: 0xC }
-  - { offset: 0x89E60, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel hasIPv6Route]', symObjAddr: 0x52DC, symBinAddr: 0xDA3C, symSize: 0x8 }
-  - { offset: 0x89E94, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel getNetworkID]', symObjAddr: 0x52E4, symBinAddr: 0xDA44, symSize: 0xD8 }
-  - { offset: 0x89EEE, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel notice:]', symObjAddr: 0x53BC, symBinAddr: 0xDB1C, symSize: 0xA0 }
-  - { offset: 0x89F8F, size: 0x8, addend: 0x0, symName: '___24-[PsiphonTunnel notice:]_block_invoke', symObjAddr: 0x545C, symBinAddr: 0xDBBC, symSize: 0x30 }
-  - { offset: 0x8A002, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel getSystemDNSServers]', symObjAddr: 0x548C, symBinAddr: 0xDBEC, symSize: 0x2E4 }
-  - { offset: 0x8A5D9, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel changeConnectionStateTo:evenIfSameState:]', symObjAddr: 0x5770, symBinAddr: 0xDED0, symSize: 0x218 }
-  - { offset: 0x8A665, size: 0x8, addend: 0x0, symName: '___57-[PsiphonTunnel changeConnectionStateTo:evenIfSameState:]_block_invoke', symObjAddr: 0x5988, symBinAddr: 0xE0E8, symSize: 0x3C }
-  - { offset: 0x8A6C9, size: 0x8, addend: 0x0, symName: '___57-[PsiphonTunnel changeConnectionStateTo:evenIfSameState:]_block_invoke.415', symObjAddr: 0x59C4, symBinAddr: 0xE124, symSize: 0x34 }
-  - { offset: 0x8A70B, size: 0x8, addend: 0x0, symName: '___57-[PsiphonTunnel changeConnectionStateTo:evenIfSameState:]_block_invoke_2', symObjAddr: 0x59F8, symBinAddr: 0xE158, symSize: 0x34 }
-  - { offset: 0x8A74D, size: 0x8, addend: 0x0, symName: '___57-[PsiphonTunnel changeConnectionStateTo:evenIfSameState:]_block_invoke_3', symObjAddr: 0x5A2C, symBinAddr: 0xE18C, symSize: 0x34 }
-  - { offset: 0x8A78F, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel isLocalProxyAliveAtPort:]', symObjAddr: 0x5A60, symBinAddr: 0xE1C0, symSize: 0x124 }
-  - { offset: 0x8A9BF, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel isLocalProxyAliveAtUnixPath:]', symObjAddr: 0x5B84, symBinAddr: 0xE2E4, symSize: 0xEC }
-  - { offset: 0x8AB5D, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel startInternetReachabilityMonitoring]', symObjAddr: 0x5C70, symBinAddr: 0xE3D0, symSize: 0x74 }
-  - { offset: 0x8AB91, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel stopInternetReachabilityMonitoring]', symObjAddr: 0x5CE4, symBinAddr: 0xE444, symSize: 0x58 }
-  - { offset: 0x8ABC5, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel internetReachabilityChanged:]', symObjAddr: 0x5D3C, symBinAddr: 0xE49C, symSize: 0x258 }
-  - { offset: 0x8ACA8, size: 0x8, addend: 0x0, symName: '___45-[PsiphonTunnel internetReachabilityChanged:]_block_invoke', symObjAddr: 0x5F94, symBinAddr: 0xE6F4, symSize: 0x3C }
-  - { offset: 0x8ACFB, size: 0x8, addend: 0x0, symName: '+[PsiphonTunnel getDeviceRegion]', symObjAddr: 0x5FD0, symBinAddr: 0xE730, symSize: 0x23B4 }
-  - { offset: 0x8ADA4, size: 0x8, addend: 0x0, symName: '+[PsiphonTunnel rfc3339Formatter]', symObjAddr: 0x8384, symBinAddr: 0x10AE4, symSize: 0xAC }
-  - { offset: 0x8AE16, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel tunneledAppDelegate]', symObjAddr: 0x859C, symBinAddr: 0x10CFC, symSize: 0x18 }
-  - { offset: 0x8AE4D, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel setTunneledAppDelegate:]', symObjAddr: 0x85B4, symBinAddr: 0x10D14, symSize: 0xC }
-  - { offset: 0x8AE8E, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel sessionID]', symObjAddr: 0x85C0, symBinAddr: 0x10D20, symSize: 0xC }
-  - { offset: 0x8AEC5, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel setSessionID:]', symObjAddr: 0x85CC, symBinAddr: 0x10D2C, symSize: 0x8 }
-  - { offset: 0x8AF04, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel .cxx_destruct]', symObjAddr: 0x85D4, symBinAddr: 0x10D34, symSize: 0x8C }
-  - { offset: 0x8AF37, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnelFeedback init]', symObjAddr: 0x8660, symBinAddr: 0x10DC0, symSize: 0x88 }
-  - { offset: 0x8AF99, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnelFeedback startSendFeedback:feedbackConfigJson:uploadPath:loggerDelegate:feedbackDelegate:]', symObjAddr: 0x86E8, symBinAddr: 0x10E48, symSize: 0x15C }
-  - { offset: 0x8B03F, size: 0x8, addend: 0x0, symName: '___105-[PsiphonTunnelFeedback startSendFeedback:feedbackConfigJson:uploadPath:loggerDelegate:feedbackDelegate:]_block_invoke', symObjAddr: 0x8844, symBinAddr: 0x10FA4, symSize: 0x734 }
-  - { offset: 0x8B308, size: 0x8, addend: 0x0, symName: '___105-[PsiphonTunnelFeedback startSendFeedback:feedbackConfigJson:uploadPath:loggerDelegate:feedbackDelegate:]_block_invoke_2', symObjAddr: 0x8F78, symBinAddr: 0x116D8, symSize: 0x160 }
-  - { offset: 0x8B3D6, size: 0x8, addend: 0x0, symName: '___105-[PsiphonTunnelFeedback startSendFeedback:feedbackConfigJson:uploadPath:loggerDelegate:feedbackDelegate:]_block_invoke_3', symObjAddr: 0x90D8, symBinAddr: 0x11838, symSize: 0x10 }
-  - { offset: 0x8B436, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32w40w, symObjAddr: 0x90E8, symBinAddr: 0x11848, symSize: 0x34 }
-  - { offset: 0x8B45F, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32w40w, symObjAddr: 0x911C, symBinAddr: 0x1187C, symSize: 0x28 }
-  - { offset: 0x8B47E, size: 0x8, addend: 0x0, symName: '___105-[PsiphonTunnelFeedback startSendFeedback:feedbackConfigJson:uploadPath:loggerDelegate:feedbackDelegate:]_block_invoke.1921', symObjAddr: 0x9144, symBinAddr: 0x118A4, symSize: 0xC }
-  - { offset: 0x8B4CD, size: 0x8, addend: 0x0, symName: '___105-[PsiphonTunnelFeedback startSendFeedback:feedbackConfigJson:uploadPath:loggerDelegate:feedbackDelegate:]_block_invoke_2.1924', symObjAddr: 0x9150, symBinAddr: 0x118B0, symSize: 0xC }
-  - { offset: 0x8B51C, size: 0x8, addend: 0x0, symName: '___105-[PsiphonTunnelFeedback startSendFeedback:feedbackConfigJson:uploadPath:loggerDelegate:feedbackDelegate:]_block_invoke_3.1925', symObjAddr: 0x915C, symBinAddr: 0x118BC, symSize: 0x19C }
-  - { offset: 0x8B5DB, size: 0x8, addend: 0x0, symName: '___105-[PsiphonTunnelFeedback startSendFeedback:feedbackConfigJson:uploadPath:loggerDelegate:feedbackDelegate:]_block_invoke_4', symObjAddr: 0x92F8, symBinAddr: 0x11A58, symSize: 0xC }
-  - { offset: 0x8B62A, size: 0x8, addend: 0x0, symName: '___105-[PsiphonTunnelFeedback startSendFeedback:feedbackConfigJson:uploadPath:loggerDelegate:feedbackDelegate:]_block_invoke.1929', symObjAddr: 0x9304, symBinAddr: 0x11A64, symSize: 0x374 }
-  - { offset: 0x8B794, size: 0x8, addend: 0x0, symName: '___105-[PsiphonTunnelFeedback startSendFeedback:feedbackConfigJson:uploadPath:loggerDelegate:feedbackDelegate:]_block_invoke_2.1930', symObjAddr: 0x9678, symBinAddr: 0x11DD8, symSize: 0x5C }
-  - { offset: 0x8B7F4, size: 0x8, addend: 0x0, symName: '___105-[PsiphonTunnelFeedback startSendFeedback:feedbackConfigJson:uploadPath:loggerDelegate:feedbackDelegate:]_block_invoke_3.1931', symObjAddr: 0x96D4, symBinAddr: 0x11E34, symSize: 0xB4 }
-  - { offset: 0x8B86F, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32b40r, symObjAddr: 0x9788, symBinAddr: 0x11EE8, symSize: 0x3C }
-  - { offset: 0x8B898, size: 0x8, addend: 0x0, symName: '___105-[PsiphonTunnelFeedback startSendFeedback:feedbackConfigJson:uploadPath:loggerDelegate:feedbackDelegate:]_block_invoke.1932', symObjAddr: 0x97C4, symBinAddr: 0x11F24, symSize: 0x10 }
-  - { offset: 0x8B8F8, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32b40w48w, symObjAddr: 0x97D4, symBinAddr: 0x11F34, symSize: 0x44 }
-  - { offset: 0x8B921, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40w48w, symObjAddr: 0x9818, symBinAddr: 0x11F78, symSize: 0x30 }
-  - { offset: 0x8B940, size: 0x8, addend: 0x0, symName: '___105-[PsiphonTunnelFeedback startSendFeedback:feedbackConfigJson:uploadPath:loggerDelegate:feedbackDelegate:]_block_invoke.1934', symObjAddr: 0x9848, symBinAddr: 0x11FA8, symSize: 0x144 }
-  - { offset: 0x8BA1F, size: 0x8, addend: 0x0, symName: '___105-[PsiphonTunnelFeedback startSendFeedback:feedbackConfigJson:uploadPath:loggerDelegate:feedbackDelegate:]_block_invoke_2.1935', symObjAddr: 0x998C, symBinAddr: 0x120EC, symSize: 0x10 }
-  - { offset: 0x8BA7F, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40w48w, symObjAddr: 0x999C, symBinAddr: 0x120FC, symSize: 0x3C }
-  - { offset: 0x8BAA8, size: 0x8, addend: 0x0, symName: '___105-[PsiphonTunnelFeedback startSendFeedback:feedbackConfigJson:uploadPath:loggerDelegate:feedbackDelegate:]_block_invoke.1937', symObjAddr: 0x99D8, symBinAddr: 0x12138, symSize: 0x3C }
-  - { offset: 0x8BB17, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40w, symObjAddr: 0x9A14, symBinAddr: 0x12174, symSize: 0x30 }
-  - { offset: 0x8BB40, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40w, symObjAddr: 0x9A44, symBinAddr: 0x121A4, symSize: 0x28 }
-  - { offset: 0x8BB5F, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnelFeedback stopSendFeedback]', symObjAddr: 0x9A6C, symBinAddr: 0x121CC, symSize: 0x10 }
-  - { offset: 0x8BBA1, size: 0x8, addend: 0x0, symName: '___41-[PsiphonTunnelFeedback stopSendFeedback]_block_invoke', symObjAddr: 0x9A7C, symBinAddr: 0x121DC, symSize: 0x4 }
-  - { offset: 0x8BBCD, size: 0x8, addend: 0x0, symName: '___41-[PsiphonTunnelFeedback stopSendFeedback]_block_invoke', symObjAddr: 0x9A7C, symBinAddr: 0x121DC, symSize: 0x4 }
-  - { offset: 0x8BBE0, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnelFeedback .cxx_destruct]', symObjAddr: 0x9A80, symBinAddr: 0x121E0, symSize: 0x30 }
-  - { offset: 0x8D9FE, size: 0x8, addend: 0x0, symName: '-[PsiphonProviderNoticeHandlerShim initWithLogger:]', symObjAddr: 0x0, symBinAddr: 0x12210, symSize: 0x78 }
-  - { offset: 0x8DAA5, size: 0x8, addend: 0x0, symName: '-[PsiphonProviderNoticeHandlerShim initWithLogger:]', symObjAddr: 0x0, symBinAddr: 0x12210, symSize: 0x78 }
-  - { offset: 0x8DAEC, size: 0x8, addend: 0x0, symName: '-[PsiphonProviderNoticeHandlerShim notice:]', symObjAddr: 0x78, symBinAddr: 0x12288, symSize: 0x18 }
-  - { offset: 0x8DB39, size: 0x8, addend: 0x0, symName: '-[PsiphonProviderNoticeHandlerShim .cxx_destruct]', symObjAddr: 0x90, symBinAddr: 0x122A0, symSize: 0xC }
-  - { offset: 0x8DBE7, size: 0x8, addend: 0x0, symName: '-[PsiphonProviderNetwork initWithTunnelWholeDevice:logger:]', symObjAddr: 0x0, symBinAddr: 0x122AC, symSize: 0xD8 }
-  - { offset: 0x8DCDF, size: 0x8, addend: 0x0, symName: '-[PsiphonProviderNetwork initWithTunnelWholeDevice:logger:]', symObjAddr: 0x0, symBinAddr: 0x122AC, symSize: 0xD8 }
-  - { offset: 0x8DD32, size: 0x8, addend: 0x0, symName: '-[PsiphonProviderNetwork logMessage:]', symObjAddr: 0xD8, symBinAddr: 0x12384, symSize: 0x18 }
-  - { offset: 0x8DD7F, size: 0x8, addend: 0x0, symName: '-[PsiphonProviderNetwork hasNetworkConnectivity]', symObjAddr: 0xF0, symBinAddr: 0x1239C, symSize: 0x20 }
-  - { offset: 0x8DDB6, size: 0x8, addend: 0x0, symName: '-[PsiphonProviderNetwork iPv6Synthesize:]', symObjAddr: 0x110, symBinAddr: 0x123BC, symSize: 0xC }
-  - { offset: 0x8DDF7, size: 0x8, addend: 0x0, symName: '-[PsiphonProviderNetwork getNetworkID]', symObjAddr: 0x11C, symBinAddr: 0x123C8, symSize: 0xE4 }
-  - { offset: 0x8DE4E, size: 0x8, addend: 0x0, symName: '-[PsiphonProviderNetwork hasIPv6Route]', symObjAddr: 0x200, symBinAddr: 0x124AC, symSize: 0x8 }
-  - { offset: 0x8DE81, size: 0x8, addend: 0x0, symName: '-[PsiphonProviderNetwork .cxx_destruct]', symObjAddr: 0x208, symBinAddr: 0x124B4, symSize: 0x30 }
-  - { offset: 0x8DF3E, size: 0x8, addend: 0x0, symName: '+[Reachability reachabilityWithHostName:]', symObjAddr: 0x0, symBinAddr: 0x124E4, symSize: 0x68 }
-  - { offset: 0x8DF58, size: 0x8, addend: 0x0, symName: _kReachabilityChangedNotification, symObjAddr: 0x4B8, symBinAddr: 0x1275C48, symSize: 0x0 }
-  - { offset: 0x8DFB2, size: 0x8, addend: 0x0, symName: '+[Reachability reachabilityWithHostName:]', symObjAddr: 0x0, symBinAddr: 0x124E4, symSize: 0x68 }
-  - { offset: 0x8E07B, size: 0x8, addend: 0x0, symName: '+[Reachability reachabilityWithAddress:]', symObjAddr: 0x68, symBinAddr: 0x1254C, symSize: 0x5C }
-  - { offset: 0x8E126, size: 0x8, addend: 0x0, symName: '+[Reachability reachabilityForInternetConnection]', symObjAddr: 0xC4, symBinAddr: 0x125A8, symSize: 0x60 }
-  - { offset: 0x8E16C, size: 0x8, addend: 0x0, symName: '-[Reachability startNotifier]', symObjAddr: 0x124, symBinAddr: 0x12608, symSize: 0x74 }
-  - { offset: 0x8E24E, size: 0x8, addend: 0x0, symName: _ReachabilityCallback, symObjAddr: 0x198, symBinAddr: 0x1267C, symSize: 0x5C }
-  - { offset: 0x8E29D, size: 0x8, addend: 0x0, symName: '-[Reachability stopNotifier]', symObjAddr: 0x1F4, symBinAddr: 0x126D8, symSize: 0x44 }
-  - { offset: 0x8E315, size: 0x8, addend: 0x0, symName: '-[Reachability dealloc]', symObjAddr: 0x238, symBinAddr: 0x1271C, symSize: 0x50 }
-  - { offset: 0x8E356, size: 0x8, addend: 0x0, symName: '-[Reachability networkStatusForFlags:]', symObjAddr: 0x288, symBinAddr: 0x1276C, symSize: 0x38 }
-  - { offset: 0x8E3A7, size: 0x8, addend: 0x0, symName: '-[Reachability connectionRequired]', symObjAddr: 0x2C0, symBinAddr: 0x127A4, symSize: 0x34 }
-  - { offset: 0x8E421, size: 0x8, addend: 0x0, symName: '-[Reachability currentReachabilityStatus]', symObjAddr: 0x2F4, symBinAddr: 0x127D8, symSize: 0x48 }
-  - { offset: 0x8E48E, size: 0x8, addend: 0x0, symName: '-[Reachability currentReachabilityFlagsToString]', symObjAddr: 0x33C, symBinAddr: 0x12820, symSize: 0xD8 }
-  - { offset: 0x8E5AC, size: 0x8, addend: 0x0, symName: '+[SBJson4StreamParserState sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x128F8, symSize: 0x8 }
-  - { offset: 0x8E5BA, size: 0x8, addend: 0x0, symName: '+[SBJson4StreamParserStateStart sharedInstance]', symObjAddr: 0x38, symBinAddr: 0x12930, symSize: 0x84 }
-  - { offset: 0x8E5E4, size: 0x8, addend: 0x0, symName: _sharedInstance.state, symObjAddr: 0x6528, symBinAddr: 0x13244D0, symSize: 0x0 }
-  - { offset: 0x8E630, size: 0x8, addend: 0x0, symName: '+[SBJson4StreamParserStateComplete sharedInstance]', symObjAddr: 0x1F8, symBinAddr: 0x12AF0, symSize: 0x84 }
-  - { offset: 0x8E65A, size: 0x8, addend: 0x0, symName: _sharedInstance.state.18, symObjAddr: 0x6530, symBinAddr: 0x13244D8, symSize: 0x0 }
-  - { offset: 0x8E67D, size: 0x8, addend: 0x0, symName: '+[SBJson4StreamParserStateError sharedInstance]', symObjAddr: 0x290, symBinAddr: 0x12B88, symSize: 0x84 }
-  - { offset: 0x8E6A7, size: 0x8, addend: 0x0, symName: _sharedInstance.state.22, symObjAddr: 0x6538, symBinAddr: 0x13244E0, symSize: 0x0 }
-  - { offset: 0x8E6CA, size: 0x8, addend: 0x0, symName: '+[SBJson4StreamParserStateObjectStart sharedInstance]', symObjAddr: 0x330, symBinAddr: 0x12C28, symSize: 0x84 }
-  - { offset: 0x8E6F4, size: 0x8, addend: 0x0, symName: _sharedInstance.state.26, symObjAddr: 0x6540, symBinAddr: 0x13244E8, symSize: 0x0 }
-  - { offset: 0x8E717, size: 0x8, addend: 0x0, symName: '+[SBJson4StreamParserStateObjectGotKey sharedInstance]', symObjAddr: 0x438, symBinAddr: 0x12D30, symSize: 0x84 }
-  - { offset: 0x8E741, size: 0x8, addend: 0x0, symName: _sharedInstance.state.31, symObjAddr: 0x6548, symBinAddr: 0x13244F0, symSize: 0x0 }
-  - { offset: 0x8E764, size: 0x8, addend: 0x0, symName: '+[SBJson4StreamParserStateObjectSeparator sharedInstance]', symObjAddr: 0x52C, symBinAddr: 0x12E24, symSize: 0x84 }
-  - { offset: 0x8E78E, size: 0x8, addend: 0x0, symName: _sharedInstance.state.36, symObjAddr: 0x6550, symBinAddr: 0x13244F8, symSize: 0x0 }
-  - { offset: 0x8E7B1, size: 0x8, addend: 0x0, symName: '+[SBJson4StreamParserStateObjectGotValue sharedInstance]', symObjAddr: 0x62C, symBinAddr: 0x12F24, symSize: 0x84 }
-  - { offset: 0x8E7DB, size: 0x8, addend: 0x0, symName: _sharedInstance.state.41, symObjAddr: 0x6558, symBinAddr: 0x1324500, symSize: 0x0 }
-  - { offset: 0x8E7FE, size: 0x8, addend: 0x0, symName: '+[SBJson4StreamParserStateObjectNeedKey sharedInstance]', symObjAddr: 0x724, symBinAddr: 0x1301C, symSize: 0x84 }
-  - { offset: 0x8E82A, size: 0x8, addend: 0x0, symName: _sharedInstance.state.46, symObjAddr: 0x6560, symBinAddr: 0x1324508, symSize: 0x0 }
-  - { offset: 0x8E84D, size: 0x8, addend: 0x0, symName: '+[SBJson4StreamParserStateArrayStart sharedInstance]', symObjAddr: 0x824, symBinAddr: 0x1311C, symSize: 0x84 }
-  - { offset: 0x8E879, size: 0x8, addend: 0x0, symName: _sharedInstance.state.50, symObjAddr: 0x6568, symBinAddr: 0x1324510, symSize: 0x0 }
-  - { offset: 0x8E89C, size: 0x8, addend: 0x0, symName: '+[SBJson4StreamParserStateArrayGotValue sharedInstance]', symObjAddr: 0x928, symBinAddr: 0x13220, symSize: 0x84 }
-  - { offset: 0x8E8C8, size: 0x8, addend: 0x0, symName: _sharedInstance.state.55, symObjAddr: 0x6570, symBinAddr: 0x1324518, symSize: 0x0 }
-  - { offset: 0x8E8EB, size: 0x8, addend: 0x0, symName: '+[SBJson4StreamParserStateArrayNeedValue sharedInstance]', symObjAddr: 0xA2C, symBinAddr: 0x13324, symSize: 0x84 }
-  - { offset: 0x8E917, size: 0x8, addend: 0x0, symName: _sharedInstance.state.60, symObjAddr: 0x6578, symBinAddr: 0x1324520, symSize: 0x0 }
-  - { offset: 0x8EA92, size: 0x8, addend: 0x0, symName: '+[SBJson4StreamParserState sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x128F8, symSize: 0x8 }
-  - { offset: 0x8EAC5, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParserState parser:shouldAcceptToken:]', symObjAddr: 0x8, symBinAddr: 0x12900, symSize: 0x8 }
-  - { offset: 0x8EB10, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParserState parserShouldReturn:]', symObjAddr: 0x10, symBinAddr: 0x12908, symSize: 0x8 }
-  - { offset: 0x8EB4F, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParserState parser:shouldTransitionTo:]', symObjAddr: 0x18, symBinAddr: 0x12910, symSize: 0x4 }
-  - { offset: 0x8EB96, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParserState needKey]', symObjAddr: 0x1C, symBinAddr: 0x12914, symSize: 0x8 }
-  - { offset: 0x8EBC9, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParserState name]', symObjAddr: 0x24, symBinAddr: 0x1291C, symSize: 0xC }
-  - { offset: 0x8EBFC, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParserState isError]', symObjAddr: 0x30, symBinAddr: 0x12928, symSize: 0x8 }
-  - { offset: 0x8EC2F, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParserStateStart parser:shouldAcceptToken:]', symObjAddr: 0xBC, symBinAddr: 0x129B4, symSize: 0x10 }
-  - { offset: 0x8EC7C, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParserStateStart parser:shouldTransitionTo:]', symObjAddr: 0xCC, symBinAddr: 0x129C4, symSize: 0x120 }
-  - { offset: 0x8ECDB, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParserStateStart name]', symObjAddr: 0x1EC, symBinAddr: 0x12AE4, symSize: 0xC }
-  - { offset: 0x8ED0E, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParserStateComplete name]', symObjAddr: 0x27C, symBinAddr: 0x12B74, symSize: 0xC }
-  - { offset: 0x8ED41, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParserStateComplete parserShouldReturn:]', symObjAddr: 0x288, symBinAddr: 0x12B80, symSize: 0x8 }
-  - { offset: 0x8ED80, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParserStateError name]', symObjAddr: 0x314, symBinAddr: 0x12C0C, symSize: 0xC }
-  - { offset: 0x8EDB3, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParserStateError parserShouldReturn:]', symObjAddr: 0x320, symBinAddr: 0x12C18, symSize: 0x8 }
-  - { offset: 0x8EDF2, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParserStateError isError]', symObjAddr: 0x328, symBinAddr: 0x12C20, symSize: 0x8 }
-  - { offset: 0x8EE25, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParserStateObjectStart name]', symObjAddr: 0x3B4, symBinAddr: 0x12CAC, symSize: 0xC }
-  - { offset: 0x8EE58, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParserStateObjectStart parser:shouldAcceptToken:]', symObjAddr: 0x3C0, symBinAddr: 0x12CB8, symSize: 0x18 }
-  - { offset: 0x8EEA5, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParserStateObjectStart parser:shouldTransitionTo:]', symObjAddr: 0x3D8, symBinAddr: 0x12CD0, symSize: 0x58 }
-  - { offset: 0x8EEF0, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParserStateObjectStart needKey]', symObjAddr: 0x430, symBinAddr: 0x12D28, symSize: 0x8 }
-  - { offset: 0x8EF23, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParserStateObjectGotKey name]', symObjAddr: 0x4BC, symBinAddr: 0x12DB4, symSize: 0xC }
-  - { offset: 0x8EF56, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParserStateObjectGotKey parser:shouldAcceptToken:]', symObjAddr: 0x4C8, symBinAddr: 0x12DC0, symSize: 0xC }
-  - { offset: 0x8EFA3, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParserStateObjectGotKey parser:shouldTransitionTo:]', symObjAddr: 0x4D4, symBinAddr: 0x12DCC, symSize: 0x58 }
-  - { offset: 0x8EFEE, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParserStateObjectSeparator name]', symObjAddr: 0x5B0, symBinAddr: 0x12EA8, symSize: 0xC }
-  - { offset: 0x8F021, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParserStateObjectSeparator parser:shouldAcceptToken:]', symObjAddr: 0x5BC, symBinAddr: 0x12EB4, symSize: 0x18 }
-  - { offset: 0x8F06E, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParserStateObjectSeparator parser:shouldTransitionTo:]', symObjAddr: 0x5D4, symBinAddr: 0x12ECC, symSize: 0x58 }
-  - { offset: 0x8F0B9, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParserStateObjectGotValue name]', symObjAddr: 0x6B0, symBinAddr: 0x12FA8, symSize: 0xC }
-  - { offset: 0x8F0EC, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParserStateObjectGotValue parser:shouldAcceptToken:]', symObjAddr: 0x6BC, symBinAddr: 0x12FB4, symSize: 0x10 }
-  - { offset: 0x8F139, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParserStateObjectGotValue parser:shouldTransitionTo:]', symObjAddr: 0x6CC, symBinAddr: 0x12FC4, symSize: 0x58 }
-  - { offset: 0x8F184, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParserStateObjectNeedKey name]', symObjAddr: 0x7A8, symBinAddr: 0x130A0, symSize: 0xC }
-  - { offset: 0x8F1B8, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParserStateObjectNeedKey parser:shouldAcceptToken:]', symObjAddr: 0x7B4, symBinAddr: 0x130AC, symSize: 0x10 }
-  - { offset: 0x8F208, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParserStateObjectNeedKey parser:shouldTransitionTo:]', symObjAddr: 0x7C4, symBinAddr: 0x130BC, symSize: 0x58 }
-  - { offset: 0x8F256, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParserStateObjectNeedKey needKey]', symObjAddr: 0x81C, symBinAddr: 0x13114, symSize: 0x8 }
-  - { offset: 0x8F28A, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParserStateArrayStart name]', symObjAddr: 0x8A8, symBinAddr: 0x131A0, symSize: 0xC }
-  - { offset: 0x8F2BE, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParserStateArrayStart parser:shouldAcceptToken:]', symObjAddr: 0x8B4, symBinAddr: 0x131AC, symSize: 0x1C }
-  - { offset: 0x8F30E, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParserStateArrayStart parser:shouldTransitionTo:]', symObjAddr: 0x8D0, symBinAddr: 0x131C8, symSize: 0x58 }
-  - { offset: 0x8F35C, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParserStateArrayGotValue name]', symObjAddr: 0x9AC, symBinAddr: 0x132A4, symSize: 0xC }
-  - { offset: 0x8F390, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParserStateArrayGotValue parser:shouldAcceptToken:]', symObjAddr: 0x9B8, symBinAddr: 0x132B0, symSize: 0x10 }
-  - { offset: 0x8F3E0, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParserStateArrayGotValue parser:shouldTransitionTo:]', symObjAddr: 0x9C8, symBinAddr: 0x132C0, symSize: 0x64 }
-  - { offset: 0x8F432, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParserStateArrayNeedValue name]', symObjAddr: 0xAB0, symBinAddr: 0x133A8, symSize: 0xC }
-  - { offset: 0x8F466, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParserStateArrayNeedValue parser:shouldAcceptToken:]', symObjAddr: 0xABC, symBinAddr: 0x133B4, symSize: 0x1C }
-  - { offset: 0x8F4B6, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParserStateArrayNeedValue parser:shouldTransitionTo:]', symObjAddr: 0xAD8, symBinAddr: 0x133D0, symSize: 0x58 }
-  - { offset: 0x8F61C, size: 0x8, addend: 0x0, symName: '+[Backups excludeFileFromBackup:err:]', symObjAddr: 0x0, symBinAddr: 0x13428, symSize: 0x90 }
-  - { offset: 0x8F62A, size: 0x8, addend: 0x0, symName: '+[Backups excludeFileFromBackup:err:]', symObjAddr: 0x0, symBinAddr: 0x13428, symSize: 0x90 }
-  - { offset: 0x8F701, size: 0x8, addend: 0x0, symName: '+[Redactor errorDescription:]', symObjAddr: 0x0, symBinAddr: 0x134B8, symSize: 0x124 }
-  - { offset: 0x8F716, size: 0x8, addend: 0x0, symName: '+[Redactor errorDescription:]', symObjAddr: 0x0, symBinAddr: 0x134B8, symSize: 0x124 }
+  - { offset: 0x86759, size: 0x8, addend: 0x0, symName: '+[Reachability(ReachabilityProtocol) reachabilityChangedNotification]', symObjAddr: 0x0, symBinAddr: 0x79F4, symSize: 0x10 }
+  - { offset: 0x867B6, size: 0x8, addend: 0x0, symName: '+[Reachability(ReachabilityProtocol) reachabilityChangedNotification]', symObjAddr: 0x0, symBinAddr: 0x79F4, symSize: 0x10 }
+  - { offset: 0x867E9, size: 0x8, addend: 0x0, symName: '-[Reachability(ReachabilityProtocol) reachabilityStatus]', symObjAddr: 0x10, symBinAddr: 0x7A04, symSize: 0x4C }
+  - { offset: 0x86830, size: 0x8, addend: 0x0, symName: '-[Reachability(ReachabilityProtocol) reachabilityStatusDebugInfo]', symObjAddr: 0x5C, symBinAddr: 0x7A50, symSize: 0x4 }
+  - { offset: 0x86901, size: 0x8, addend: 0x0, symName: '-[SBJson4Writer init]', symObjAddr: 0x0, symBinAddr: 0x7A54, symSize: 0x54 }
+  - { offset: 0x86A02, size: 0x8, addend: 0x0, symName: '-[SBJson4Writer init]', symObjAddr: 0x0, symBinAddr: 0x7A54, symSize: 0x54 }
+  - { offset: 0x86A39, size: 0x8, addend: 0x0, symName: '-[SBJson4Writer stringWithObject:]', symObjAddr: 0x54, symBinAddr: 0x7AA8, symSize: 0x5C }
+  - { offset: 0x86A90, size: 0x8, addend: 0x0, symName: '-[SBJson4Writer dataWithObject:]', symObjAddr: 0xB0, symBinAddr: 0x7B04, symSize: 0x1FC }
+  - { offset: 0x86AF7, size: 0x8, addend: 0x0, symName: '-[SBJson4Writer writer:appendBytes:length:]', symObjAddr: 0x2AC, symBinAddr: 0x7D00, symSize: 0x48 }
+  - { offset: 0x86B56, size: 0x8, addend: 0x0, symName: '-[SBJson4Writer maxDepth]', symObjAddr: 0x2F4, symBinAddr: 0x7D48, symSize: 0x8 }
+  - { offset: 0x86B8D, size: 0x8, addend: 0x0, symName: '-[SBJson4Writer setMaxDepth:]', symObjAddr: 0x2FC, symBinAddr: 0x7D50, symSize: 0x8 }
+  - { offset: 0x86BCA, size: 0x8, addend: 0x0, symName: '-[SBJson4Writer error]', symObjAddr: 0x304, symBinAddr: 0x7D58, symSize: 0x8 }
+  - { offset: 0x86C01, size: 0x8, addend: 0x0, symName: '-[SBJson4Writer setError:]', symObjAddr: 0x30C, symBinAddr: 0x7D60, symSize: 0x8 }
+  - { offset: 0x86C40, size: 0x8, addend: 0x0, symName: '-[SBJson4Writer humanReadable]', symObjAddr: 0x314, symBinAddr: 0x7D68, symSize: 0x8 }
+  - { offset: 0x86C77, size: 0x8, addend: 0x0, symName: '-[SBJson4Writer setHumanReadable:]', symObjAddr: 0x31C, symBinAddr: 0x7D70, symSize: 0x8 }
+  - { offset: 0x86CB2, size: 0x8, addend: 0x0, symName: '-[SBJson4Writer sortKeys]', symObjAddr: 0x324, symBinAddr: 0x7D78, symSize: 0x8 }
+  - { offset: 0x86CE9, size: 0x8, addend: 0x0, symName: '-[SBJson4Writer setSortKeys:]', symObjAddr: 0x32C, symBinAddr: 0x7D80, symSize: 0x8 }
+  - { offset: 0x86D24, size: 0x8, addend: 0x0, symName: '-[SBJson4Writer sortKeysComparator]', symObjAddr: 0x334, symBinAddr: 0x7D88, symSize: 0x8 }
+  - { offset: 0x86D5B, size: 0x8, addend: 0x0, symName: '-[SBJson4Writer setSortKeysComparator:]', symObjAddr: 0x33C, symBinAddr: 0x7D90, symSize: 0x8 }
+  - { offset: 0x86D9A, size: 0x8, addend: 0x0, symName: '-[SBJson4Writer acc]', symObjAddr: 0x344, symBinAddr: 0x7D98, symSize: 0x8 }
+  - { offset: 0x86DD1, size: 0x8, addend: 0x0, symName: '-[SBJson4Writer setAcc:]', symObjAddr: 0x34C, symBinAddr: 0x7DA0, symSize: 0xC }
+  - { offset: 0x86E12, size: 0x8, addend: 0x0, symName: '-[SBJson4Writer .cxx_destruct]', symObjAddr: 0x358, symBinAddr: 0x7DAC, symSize: 0x3C }
+  - { offset: 0x86F38, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamTokeniser setError:]', symObjAddr: 0x0, symBinAddr: 0x7DE8, symSize: 0x58 }
+  - { offset: 0x8703D, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamTokeniser setError:]', symObjAddr: 0x0, symBinAddr: 0x7DE8, symSize: 0x58 }
+  - { offset: 0x87080, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamTokeniser appendData:]', symObjAddr: 0x58, symBinAddr: 0x7E40, symSize: 0x9C }
+  - { offset: 0x870C3, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamTokeniser skipWhitespace]', symObjAddr: 0xF4, symBinAddr: 0x7EDC, symSize: 0x78 }
+  - { offset: 0x870F6, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamTokeniser getUnichar:]', symObjAddr: 0x16C, symBinAddr: 0x7F54, symSize: 0x38 }
+  - { offset: 0x8713D, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamTokeniser haveOneMoreCharacter]', symObjAddr: 0x1A4, symBinAddr: 0x7F8C, symSize: 0x8 }
+  - { offset: 0x87172, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamTokeniser haveRemainingCharacters:]', symObjAddr: 0x1AC, symBinAddr: 0x7F94, symSize: 0x38 }
+  - { offset: 0x871B9, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamTokeniser match:retval:token:length:]', symObjAddr: 0x1E4, symBinAddr: 0x7FCC, symSize: 0xD8 }
+  - { offset: 0x872A8, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamTokeniser decodeHexQuad:]', symObjAddr: 0x2BC, symBinAddr: 0x80A4, symSize: 0x80 }
+  - { offset: 0x8733B, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamTokeniser getStringToken:length:]', symObjAddr: 0x33C, symBinAddr: 0x8124, symSize: 0x280 }
+  - { offset: 0x873E0, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamTokeniser getNumberToken:length:]', symObjAddr: 0x5BC, symBinAddr: 0x83A4, symSize: 0x238 }
+  - { offset: 0x87482, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamTokeniser getToken:length:]', symObjAddr: 0x7F4, symBinAddr: 0x85DC, symSize: 0x21C }
+  - { offset: 0x8750F, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamTokeniser error]', symObjAddr: 0xA10, symBinAddr: 0x87F8, symSize: 0x8 }
+  - { offset: 0x87546, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamTokeniser .cxx_destruct]', symObjAddr: 0xA18, symBinAddr: 0x8800, symSize: 0x30 }
+  - { offset: 0x875EA, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel init]', symObjAddr: 0x0, symBinAddr: 0x8830, symSize: 0x54 }
+  - { offset: 0x87604, size: 0x8, addend: 0x0, symName: _PsiphonTunnelErrorDomain, symObjAddr: 0x13C50, symBinAddr: 0xFF4280, symSize: 0x0 }
+  - { offset: 0x87652, size: 0x8, addend: 0x0, symName: _UseIPv6Synthesizer, symObjAddr: 0x14028, symBinAddr: 0x80B7E6, symSize: 0x0 }
+  - { offset: 0x87674, size: 0x8, addend: 0x0, symName: _UseHasIPv6RouteGetter, symObjAddr: 0x14029, symBinAddr: 0x80B7E7, symSize: 0x0 }
+  - { offset: 0x8768C, size: 0x8, addend: 0x0, symName: '+[PsiphonTunnel newPsiphonTunnel:]', symObjAddr: 0x4A4, symBinAddr: 0x8CC4, symSize: 0x114 }
+  - { offset: 0x876B6, size: 0x8, addend: 0x0, symName: '_newPsiphonTunnel:.sharedInstance', symObjAddr: 0x31C68, symBinAddr: 0x1305180, symSize: 0x0 }
+  - { offset: 0x876CC, size: 0x8, addend: 0x0, symName: '_newPsiphonTunnel:.onceToken', symObjAddr: 0x31C70, symBinAddr: 0x1305188, symSize: 0x0 }
+  - { offset: 0x878DD, size: 0x8, addend: 0x0, symName: '+[PsiphonTunnel generateSessionID:]', symObjAddr: 0x8438, symBinAddr: 0x10B98, symSize: 0x16C }
+  - { offset: 0x87A4E, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel init]', symObjAddr: 0x0, symBinAddr: 0x8830, symSize: 0x54 }
+  - { offset: 0x87A85, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel initWithAppDelegate:]', symObjAddr: 0x54, symBinAddr: 0x8884, symSize: 0x6C }
+  - { offset: 0x87ACC, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel initializeWithAppDelegate:]', symObjAddr: 0xC0, symBinAddr: 0x88F0, symSize: 0x1A0 }
+  - { offset: 0x87BA1, size: 0x8, addend: 0x0, symName: '___43-[PsiphonTunnel initializeWithAppDelegate:]_block_invoke', symObjAddr: 0x260, symBinAddr: 0x8A90, symSize: 0x48 }
+  - { offset: 0x87BF0, size: 0x8, addend: 0x0, symName: '+[PsiphonTunnel defaultDataRootDirectoryWithError:]', symObjAddr: 0x2B8, symBinAddr: 0x8AD8, symSize: 0x78 }
+  - { offset: 0x87C43, size: 0x8, addend: 0x0, symName: '+[PsiphonTunnel homepageFilePath:]', symObjAddr: 0x330, symBinAddr: 0x8B50, symSize: 0x7C }
+  - { offset: 0x87CA6, size: 0x8, addend: 0x0, symName: '+[PsiphonTunnel noticesFilePath:]', symObjAddr: 0x3AC, symBinAddr: 0x8BCC, symSize: 0x7C }
+  - { offset: 0x87D09, size: 0x8, addend: 0x0, symName: '+[PsiphonTunnel olderNoticesFilePath:]', symObjAddr: 0x428, symBinAddr: 0x8C48, symSize: 0x7C }
+  - { offset: 0x87DB3, size: 0x8, addend: 0x0, symName: '___34+[PsiphonTunnel newPsiphonTunnel:]_block_invoke', symObjAddr: 0x5B8, symBinAddr: 0x8DD8, symSize: 0x3C }
+  - { offset: 0x87E02, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel start:]', symObjAddr: 0x5F4, symBinAddr: 0x8E14, symSize: 0x100 }
+  - { offset: 0x87E69, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel reconnectWithConfig::]', symObjAddr: 0x6F4, symBinAddr: 0x8F14, symSize: 0xB0 }
+  - { offset: 0x87F23, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel stopAndReconnectWithCurrentSessionID]', symObjAddr: 0x7A4, symBinAddr: 0x8FC4, symSize: 0x48 }
+  - { offset: 0x87F5B, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel appResumed]', symObjAddr: 0x7EC, symBinAddr: 0x900C, symSize: 0x4 }
+  - { offset: 0x87F8E, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel appResumed]', symObjAddr: 0x7EC, symBinAddr: 0x900C, symSize: 0x4 }
+  - { offset: 0x87FA1, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel dropPacketTunnelTraffic:]', symObjAddr: 0x7F0, symBinAddr: 0x9010, symSize: 0x8 }
+  - { offset: 0x88007, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel start]', symObjAddr: 0x7F8, symBinAddr: 0x9018, symSize: 0x490 }
+  - { offset: 0x8818F, size: 0x8, addend: 0x0, symName: ___Block_byref_object_copy_, symObjAddr: 0xC88, symBinAddr: 0x94A8, symSize: 0x10 }
+  - { offset: 0x881B4, size: 0x8, addend: 0x0, symName: ___Block_byref_object_dispose_, symObjAddr: 0xC98, symBinAddr: 0x94B8, symSize: 0x8 }
+  - { offset: 0x881D3, size: 0x8, addend: 0x0, symName: '___22-[PsiphonTunnel start]_block_invoke', symObjAddr: 0xCA0, symBinAddr: 0x94C0, symSize: 0x84 }
+  - { offset: 0x88226, size: 0x8, addend: 0x0, symName: '___22-[PsiphonTunnel start]_block_invoke.31', symObjAddr: 0xD84, symBinAddr: 0x9544, symSize: 0x58 }
+  - { offset: 0x88279, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel startIfNeeded]', symObjAddr: 0xDDC, symBinAddr: 0x959C, symSize: 0x144 }
+  - { offset: 0x88326, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel stop]', symObjAddr: 0xF20, symBinAddr: 0x96E0, symSize: 0xDC }
+  - { offset: 0x88370, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel getConnectionState]', symObjAddr: 0xFFC, symBinAddr: 0x97BC, symSize: 0xC }
+  - { offset: 0x883A8, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel getNetworkReachabilityStatus:]', symObjAddr: 0x1008, symBinAddr: 0x97C8, symSize: 0x3C }
+  - { offset: 0x88402, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel getLocalSocksProxyPort]', symObjAddr: 0x1044, symBinAddr: 0x9804, symSize: 0xC }
+  - { offset: 0x8843A, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel getLocalHttpProxyPort]', symObjAddr: 0x1050, symBinAddr: 0x9810, symSize: 0xC }
+  - { offset: 0x88472, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel getPacketTunnelMTU]', symObjAddr: 0x105C, symBinAddr: 0x981C, symSize: 0x4 }
+  - { offset: 0x884A9, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel getPacketTunnelMTU]', symObjAddr: 0x105C, symBinAddr: 0x981C, symSize: 0x4 }
+  - { offset: 0x884C0, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel importPushPayload:]', symObjAddr: 0x1060, symBinAddr: 0x9820, symSize: 0x8 }
+  - { offset: 0x88533, size: 0x8, addend: 0x0, symName: '+[PsiphonTunnel getBuildInfo]', symObjAddr: 0x1068, symBinAddr: 0x9828, symSize: 0x4 }
+  - { offset: 0x8856A, size: 0x8, addend: 0x0, symName: '+[PsiphonTunnel getBuildInfo]', symObjAddr: 0x1068, symBinAddr: 0x9828, symSize: 0x4 }
+  - { offset: 0x88581, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel writeRuntimeProfilesTo:withCPUSampleDurationSeconds:withBlockSampleDurationSeconds:]', symObjAddr: 0x106C, symBinAddr: 0x982C, symSize: 0x10 }
+  - { offset: 0x88610, size: 0x8, addend: 0x0, symName: '+[PsiphonTunnel libraryURLWithError:]', symObjAddr: 0x107C, symBinAddr: 0x983C, symSize: 0x134 }
+  - { offset: 0x88688, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel getConfig:error:]', symObjAddr: 0x11B0, symBinAddr: 0x9970, symSize: 0x2D8 }
+  - { offset: 0x88752, size: 0x8, addend: 0x0, symName: '___33-[PsiphonTunnel getConfig:error:]_block_invoke', symObjAddr: 0x1488, symBinAddr: 0x9C48, symSize: 0x58 }
+  - { offset: 0x887A5, size: 0x8, addend: 0x0, symName: '___33-[PsiphonTunnel getConfig:error:]_block_invoke_2', symObjAddr: 0x14E0, symBinAddr: 0x9CA0, symSize: 0x50 }
+  - { offset: 0x88814, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32w, symObjAddr: 0x1530, symBinAddr: 0x9CF0, symSize: 0xC }
+  - { offset: 0x8883D, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32w, symObjAddr: 0x153C, symBinAddr: 0x9CFC, symSize: 0x8 }
+  - { offset: 0x8885C, size: 0x8, addend: 0x0, symName: '+[PsiphonTunnel buildPsiphonConfig:tunnelWholeDevice:usingNoticeFiles:sessionID:logMessage:error:]', symObjAddr: 0x1544, symBinAddr: 0x9D04, symSize: 0x1230 }
+  - { offset: 0x88B5E, size: 0x8, addend: 0x0, symName: '___98+[PsiphonTunnel buildPsiphonConfig:tunnelWholeDevice:usingNoticeFiles:sessionID:logMessage:error:]_block_invoke', symObjAddr: 0x2774, symBinAddr: 0xAF34, symSize: 0x5C }
+  - { offset: 0x88BBE, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32r, symObjAddr: 0x27D0, symBinAddr: 0xAF90, symSize: 0x10 }
+  - { offset: 0x88BE7, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32r, symObjAddr: 0x27E0, symBinAddr: 0xAFA0, symSize: 0xC }
+  - { offset: 0x88C06, size: 0x8, addend: 0x0, symName: '___98+[PsiphonTunnel buildPsiphonConfig:tunnelWholeDevice:usingNoticeFiles:sessionID:logMessage:error:]_block_invoke.52', symObjAddr: 0x27EC, symBinAddr: 0xAFAC, symSize: 0x140 }
+  - { offset: 0x88C86, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel handlePsiphonNotice:]', symObjAddr: 0x292C, symBinAddr: 0xB0EC, symSize: 0x1D78 }
+  - { offset: 0x892AA, size: 0x8, addend: 0x0, symName: '___37-[PsiphonTunnel handlePsiphonNotice:]_block_invoke', symObjAddr: 0x46A4, symBinAddr: 0xCE64, symSize: 0x5C }
+  - { offset: 0x8930A, size: 0x8, addend: 0x0, symName: '___37-[PsiphonTunnel handlePsiphonNotice:]_block_invoke_2', symObjAddr: 0x4700, symBinAddr: 0xCEC0, symSize: 0xB0 }
+  - { offset: 0x8936E, size: 0x8, addend: 0x0, symName: '___37-[PsiphonTunnel handlePsiphonNotice:]_block_invoke.183', symObjAddr: 0x47B0, symBinAddr: 0xCF70, symSize: 0x34 }
+  - { offset: 0x893B0, size: 0x8, addend: 0x0, symName: '___37-[PsiphonTunnel handlePsiphonNotice:]_block_invoke.192', symObjAddr: 0x47E4, symBinAddr: 0xCFA4, symSize: 0x3C }
+  - { offset: 0x89403, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s, symObjAddr: 0x4820, symBinAddr: 0xCFE0, symSize: 0x28 }
+  - { offset: 0x8942C, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s, symObjAddr: 0x4848, symBinAddr: 0xD008, symSize: 0x28 }
+  - { offset: 0x8944B, size: 0x8, addend: 0x0, symName: '___37-[PsiphonTunnel handlePsiphonNotice:]_block_invoke.201', symObjAddr: 0x4870, symBinAddr: 0xD030, symSize: 0x48 }
+  - { offset: 0x8949E, size: 0x8, addend: 0x0, symName: '___37-[PsiphonTunnel handlePsiphonNotice:]_block_invoke_2.208', symObjAddr: 0x48B8, symBinAddr: 0xD078, symSize: 0x48 }
+  - { offset: 0x894F1, size: 0x8, addend: 0x0, symName: '___37-[PsiphonTunnel handlePsiphonNotice:]_block_invoke_3', symObjAddr: 0x4900, symBinAddr: 0xD0C0, symSize: 0x3C }
+  - { offset: 0x89544, size: 0x8, addend: 0x0, symName: '___37-[PsiphonTunnel handlePsiphonNotice:]_block_invoke_4', symObjAddr: 0x493C, symBinAddr: 0xD0FC, symSize: 0x3C }
+  - { offset: 0x89597, size: 0x8, addend: 0x0, symName: '___37-[PsiphonTunnel handlePsiphonNotice:]_block_invoke_5', symObjAddr: 0x4978, symBinAddr: 0xD138, symSize: 0x3C }
+  - { offset: 0x895EA, size: 0x8, addend: 0x0, symName: '___37-[PsiphonTunnel handlePsiphonNotice:]_block_invoke_6', symObjAddr: 0x49B4, symBinAddr: 0xD174, symSize: 0x3C }
+  - { offset: 0x8963D, size: 0x8, addend: 0x0, symName: '___37-[PsiphonTunnel handlePsiphonNotice:]_block_invoke_7', symObjAddr: 0x49F0, symBinAddr: 0xD1B0, symSize: 0x3C }
+  - { offset: 0x89690, size: 0x8, addend: 0x0, symName: '___37-[PsiphonTunnel handlePsiphonNotice:]_block_invoke_8', symObjAddr: 0x4A2C, symBinAddr: 0xD1EC, symSize: 0x3C }
+  - { offset: 0x896E3, size: 0x8, addend: 0x0, symName: '___37-[PsiphonTunnel handlePsiphonNotice:]_block_invoke_9', symObjAddr: 0x4A68, symBinAddr: 0xD228, symSize: 0x3C }
+  - { offset: 0x89736, size: 0x8, addend: 0x0, symName: '___37-[PsiphonTunnel handlePsiphonNotice:]_block_invoke_10', symObjAddr: 0x4AA4, symBinAddr: 0xD264, symSize: 0x3C }
+  - { offset: 0x89789, size: 0x8, addend: 0x0, symName: '___37-[PsiphonTunnel handlePsiphonNotice:]_block_invoke_11', symObjAddr: 0x4AE0, symBinAddr: 0xD2A0, symSize: 0x3C }
+  - { offset: 0x897DC, size: 0x8, addend: 0x0, symName: '___37-[PsiphonTunnel handlePsiphonNotice:]_block_invoke_12', symObjAddr: 0x4B1C, symBinAddr: 0xD2DC, symSize: 0x3C }
+  - { offset: 0x8982F, size: 0x8, addend: 0x0, symName: '___37-[PsiphonTunnel handlePsiphonNotice:]_block_invoke_13', symObjAddr: 0x4B58, symBinAddr: 0xD318, symSize: 0x60 }
+  - { offset: 0x89893, size: 0x8, addend: 0x0, symName: '___37-[PsiphonTunnel handlePsiphonNotice:]_block_invoke.301', symObjAddr: 0x4C18, symBinAddr: 0xD378, symSize: 0x3C }
+  - { offset: 0x898E6, size: 0x8, addend: 0x0, symName: '___37-[PsiphonTunnel handlePsiphonNotice:]_block_invoke_2.310', symObjAddr: 0x4C54, symBinAddr: 0xD3B4, symSize: 0x3C }
+  - { offset: 0x89939, size: 0x8, addend: 0x0, symName: '___37-[PsiphonTunnel handlePsiphonNotice:]_block_invoke_3.321', symObjAddr: 0x4C90, symBinAddr: 0xD3F0, symSize: 0x60 }
+  - { offset: 0x8999D, size: 0x8, addend: 0x0, symName: '___37-[PsiphonTunnel handlePsiphonNotice:]_block_invoke_4.336', symObjAddr: 0x4CF0, symBinAddr: 0xD450, symSize: 0x40 }
+  - { offset: 0x89A12, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s56s, symObjAddr: 0x4D30, symBinAddr: 0xD490, symSize: 0x38 }
+  - { offset: 0x89A3B, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56s, symObjAddr: 0x4D68, symBinAddr: 0xD4C8, symSize: 0x38 }
+  - { offset: 0x89A5A, size: 0x8, addend: 0x0, symName: '___37-[PsiphonTunnel handlePsiphonNotice:]_block_invoke.345', symObjAddr: 0x4DA0, symBinAddr: 0xD500, symSize: 0x3C }
+  - { offset: 0x89AAD, size: 0x8, addend: 0x0, symName: '___37-[PsiphonTunnel handlePsiphonNotice:]_block_invoke_2.350', symObjAddr: 0x4DDC, symBinAddr: 0xD53C, symSize: 0x34 }
+  - { offset: 0x89AEF, size: 0x8, addend: 0x0, symName: '___37-[PsiphonTunnel handlePsiphonNotice:]_block_invoke_3.367', symObjAddr: 0x4E10, symBinAddr: 0xD570, symSize: 0x98 }
+  - { offset: 0x89B86, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s56s64s72s, symObjAddr: 0x4EA8, symBinAddr: 0xD608, symSize: 0x48 }
+  - { offset: 0x89BAF, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56s64s72s, symObjAddr: 0x4EF0, symBinAddr: 0xD650, symSize: 0x48 }
+  - { offset: 0x89BCE, size: 0x8, addend: 0x0, symName: '___37-[PsiphonTunnel handlePsiphonNotice:]_block_invoke.376', symObjAddr: 0x4F38, symBinAddr: 0xD698, symSize: 0x3C }
+  - { offset: 0x89C21, size: 0x8, addend: 0x0, symName: '___37-[PsiphonTunnel handlePsiphonNotice:]_block_invoke_2.381', symObjAddr: 0x4F74, symBinAddr: 0xD6D4, symSize: 0x34 }
+  - { offset: 0x89C63, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel logMessage:]', symObjAddr: 0x4FA8, symBinAddr: 0xD708, symSize: 0xAC }
+  - { offset: 0x89CE4, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel postDiagnosticMessage:withTimestamp:]', symObjAddr: 0x5054, symBinAddr: 0xD7B4, symSize: 0xF4 }
+  - { offset: 0x89D57, size: 0x8, addend: 0x0, symName: '___53-[PsiphonTunnel postDiagnosticMessage:withTimestamp:]_block_invoke', symObjAddr: 0x5148, symBinAddr: 0xD8A8, symSize: 0x3C }
+  - { offset: 0x89DBB, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel bindToDevice:error:]', symObjAddr: 0x5184, symBinAddr: 0xD8E4, symSize: 0xD4 }
+  - { offset: 0x89E0D, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel getDNSServersAsString]', symObjAddr: 0x5258, symBinAddr: 0xD9B8, symSize: 0x3C }
+  - { offset: 0x89E45, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel hasNetworkConnectivity]', symObjAddr: 0x5294, symBinAddr: 0xD9F4, symSize: 0x44 }
+  - { offset: 0x89E8A, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel iPv6Synthesize:]', symObjAddr: 0x52D8, symBinAddr: 0xDA38, symSize: 0xC }
+  - { offset: 0x89ECD, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel hasIPv6Route]', symObjAddr: 0x52E4, symBinAddr: 0xDA44, symSize: 0x8 }
+  - { offset: 0x89F01, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel getNetworkID]', symObjAddr: 0x52EC, symBinAddr: 0xDA4C, symSize: 0xD8 }
+  - { offset: 0x89F5B, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel notice:]', symObjAddr: 0x53C4, symBinAddr: 0xDB24, symSize: 0xA0 }
+  - { offset: 0x89FFC, size: 0x8, addend: 0x0, symName: '___24-[PsiphonTunnel notice:]_block_invoke', symObjAddr: 0x5464, symBinAddr: 0xDBC4, symSize: 0x30 }
+  - { offset: 0x8A06F, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel getSystemDNSServers]', symObjAddr: 0x5494, symBinAddr: 0xDBF4, symSize: 0x2E4 }
+  - { offset: 0x8A646, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel changeConnectionStateTo:evenIfSameState:]', symObjAddr: 0x5778, symBinAddr: 0xDED8, symSize: 0x218 }
+  - { offset: 0x8A6D2, size: 0x8, addend: 0x0, symName: '___57-[PsiphonTunnel changeConnectionStateTo:evenIfSameState:]_block_invoke', symObjAddr: 0x5990, symBinAddr: 0xE0F0, symSize: 0x3C }
+  - { offset: 0x8A736, size: 0x8, addend: 0x0, symName: '___57-[PsiphonTunnel changeConnectionStateTo:evenIfSameState:]_block_invoke.415', symObjAddr: 0x59CC, symBinAddr: 0xE12C, symSize: 0x34 }
+  - { offset: 0x8A778, size: 0x8, addend: 0x0, symName: '___57-[PsiphonTunnel changeConnectionStateTo:evenIfSameState:]_block_invoke_2', symObjAddr: 0x5A00, symBinAddr: 0xE160, symSize: 0x34 }
+  - { offset: 0x8A7BA, size: 0x8, addend: 0x0, symName: '___57-[PsiphonTunnel changeConnectionStateTo:evenIfSameState:]_block_invoke_3', symObjAddr: 0x5A34, symBinAddr: 0xE194, symSize: 0x34 }
+  - { offset: 0x8A7FC, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel isLocalProxyAliveAtPort:]', symObjAddr: 0x5A68, symBinAddr: 0xE1C8, symSize: 0x124 }
+  - { offset: 0x8AA2C, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel isLocalProxyAliveAtUnixPath:]', symObjAddr: 0x5B8C, symBinAddr: 0xE2EC, symSize: 0xEC }
+  - { offset: 0x8ABCA, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel startInternetReachabilityMonitoring]', symObjAddr: 0x5C78, symBinAddr: 0xE3D8, symSize: 0x74 }
+  - { offset: 0x8ABFE, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel stopInternetReachabilityMonitoring]', symObjAddr: 0x5CEC, symBinAddr: 0xE44C, symSize: 0x58 }
+  - { offset: 0x8AC32, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel internetReachabilityChanged:]', symObjAddr: 0x5D44, symBinAddr: 0xE4A4, symSize: 0x258 }
+  - { offset: 0x8AD15, size: 0x8, addend: 0x0, symName: '___45-[PsiphonTunnel internetReachabilityChanged:]_block_invoke', symObjAddr: 0x5F9C, symBinAddr: 0xE6FC, symSize: 0x3C }
+  - { offset: 0x8AD68, size: 0x8, addend: 0x0, symName: '+[PsiphonTunnel getDeviceRegion]', symObjAddr: 0x5FD8, symBinAddr: 0xE738, symSize: 0x23B4 }
+  - { offset: 0x8AE11, size: 0x8, addend: 0x0, symName: '+[PsiphonTunnel rfc3339Formatter]', symObjAddr: 0x838C, symBinAddr: 0x10AEC, symSize: 0xAC }
+  - { offset: 0x8AE83, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel tunneledAppDelegate]', symObjAddr: 0x85A4, symBinAddr: 0x10D04, symSize: 0x18 }
+  - { offset: 0x8AEBA, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel setTunneledAppDelegate:]', symObjAddr: 0x85BC, symBinAddr: 0x10D1C, symSize: 0xC }
+  - { offset: 0x8AEFB, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel sessionID]', symObjAddr: 0x85C8, symBinAddr: 0x10D28, symSize: 0xC }
+  - { offset: 0x8AF32, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel setSessionID:]', symObjAddr: 0x85D4, symBinAddr: 0x10D34, symSize: 0x8 }
+  - { offset: 0x8AF71, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnel .cxx_destruct]', symObjAddr: 0x85DC, symBinAddr: 0x10D3C, symSize: 0x8C }
+  - { offset: 0x8AFA4, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnelFeedback init]', symObjAddr: 0x8668, symBinAddr: 0x10DC8, symSize: 0x88 }
+  - { offset: 0x8B006, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnelFeedback startSendFeedback:feedbackConfigJson:uploadPath:loggerDelegate:feedbackDelegate:]', symObjAddr: 0x86F0, symBinAddr: 0x10E50, symSize: 0x15C }
+  - { offset: 0x8B0AC, size: 0x8, addend: 0x0, symName: '___105-[PsiphonTunnelFeedback startSendFeedback:feedbackConfigJson:uploadPath:loggerDelegate:feedbackDelegate:]_block_invoke', symObjAddr: 0x884C, symBinAddr: 0x10FAC, symSize: 0x734 }
+  - { offset: 0x8B375, size: 0x8, addend: 0x0, symName: '___105-[PsiphonTunnelFeedback startSendFeedback:feedbackConfigJson:uploadPath:loggerDelegate:feedbackDelegate:]_block_invoke_2', symObjAddr: 0x8F80, symBinAddr: 0x116E0, symSize: 0x160 }
+  - { offset: 0x8B443, size: 0x8, addend: 0x0, symName: '___105-[PsiphonTunnelFeedback startSendFeedback:feedbackConfigJson:uploadPath:loggerDelegate:feedbackDelegate:]_block_invoke_3', symObjAddr: 0x90E0, symBinAddr: 0x11840, symSize: 0x10 }
+  - { offset: 0x8B4A3, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32w40w, symObjAddr: 0x90F0, symBinAddr: 0x11850, symSize: 0x34 }
+  - { offset: 0x8B4CC, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32w40w, symObjAddr: 0x9124, symBinAddr: 0x11884, symSize: 0x28 }
+  - { offset: 0x8B4EB, size: 0x8, addend: 0x0, symName: '___105-[PsiphonTunnelFeedback startSendFeedback:feedbackConfigJson:uploadPath:loggerDelegate:feedbackDelegate:]_block_invoke.1923', symObjAddr: 0x914C, symBinAddr: 0x118AC, symSize: 0xC }
+  - { offset: 0x8B53A, size: 0x8, addend: 0x0, symName: '___105-[PsiphonTunnelFeedback startSendFeedback:feedbackConfigJson:uploadPath:loggerDelegate:feedbackDelegate:]_block_invoke_2.1926', symObjAddr: 0x9158, symBinAddr: 0x118B8, symSize: 0xC }
+  - { offset: 0x8B589, size: 0x8, addend: 0x0, symName: '___105-[PsiphonTunnelFeedback startSendFeedback:feedbackConfigJson:uploadPath:loggerDelegate:feedbackDelegate:]_block_invoke_3.1927', symObjAddr: 0x9164, symBinAddr: 0x118C4, symSize: 0x19C }
+  - { offset: 0x8B648, size: 0x8, addend: 0x0, symName: '___105-[PsiphonTunnelFeedback startSendFeedback:feedbackConfigJson:uploadPath:loggerDelegate:feedbackDelegate:]_block_invoke_4', symObjAddr: 0x9300, symBinAddr: 0x11A60, symSize: 0xC }
+  - { offset: 0x8B697, size: 0x8, addend: 0x0, symName: '___105-[PsiphonTunnelFeedback startSendFeedback:feedbackConfigJson:uploadPath:loggerDelegate:feedbackDelegate:]_block_invoke.1931', symObjAddr: 0x930C, symBinAddr: 0x11A6C, symSize: 0x374 }
+  - { offset: 0x8B801, size: 0x8, addend: 0x0, symName: '___105-[PsiphonTunnelFeedback startSendFeedback:feedbackConfigJson:uploadPath:loggerDelegate:feedbackDelegate:]_block_invoke_2.1932', symObjAddr: 0x9680, symBinAddr: 0x11DE0, symSize: 0x5C }
+  - { offset: 0x8B861, size: 0x8, addend: 0x0, symName: '___105-[PsiphonTunnelFeedback startSendFeedback:feedbackConfigJson:uploadPath:loggerDelegate:feedbackDelegate:]_block_invoke_3.1933', symObjAddr: 0x96DC, symBinAddr: 0x11E3C, symSize: 0xB4 }
+  - { offset: 0x8B8DC, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32b40r, symObjAddr: 0x9790, symBinAddr: 0x11EF0, symSize: 0x3C }
+  - { offset: 0x8B905, size: 0x8, addend: 0x0, symName: '___105-[PsiphonTunnelFeedback startSendFeedback:feedbackConfigJson:uploadPath:loggerDelegate:feedbackDelegate:]_block_invoke.1934', symObjAddr: 0x97CC, symBinAddr: 0x11F2C, symSize: 0x10 }
+  - { offset: 0x8B965, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32b40w48w, symObjAddr: 0x97DC, symBinAddr: 0x11F3C, symSize: 0x44 }
+  - { offset: 0x8B98E, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40w48w, symObjAddr: 0x9820, symBinAddr: 0x11F80, symSize: 0x30 }
+  - { offset: 0x8B9AD, size: 0x8, addend: 0x0, symName: '___105-[PsiphonTunnelFeedback startSendFeedback:feedbackConfigJson:uploadPath:loggerDelegate:feedbackDelegate:]_block_invoke.1936', symObjAddr: 0x9850, symBinAddr: 0x11FB0, symSize: 0x144 }
+  - { offset: 0x8BA8C, size: 0x8, addend: 0x0, symName: '___105-[PsiphonTunnelFeedback startSendFeedback:feedbackConfigJson:uploadPath:loggerDelegate:feedbackDelegate:]_block_invoke_2.1937', symObjAddr: 0x9994, symBinAddr: 0x120F4, symSize: 0x10 }
+  - { offset: 0x8BAEC, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40w48w, symObjAddr: 0x99A4, symBinAddr: 0x12104, symSize: 0x3C }
+  - { offset: 0x8BB15, size: 0x8, addend: 0x0, symName: '___105-[PsiphonTunnelFeedback startSendFeedback:feedbackConfigJson:uploadPath:loggerDelegate:feedbackDelegate:]_block_invoke.1939', symObjAddr: 0x99E0, symBinAddr: 0x12140, symSize: 0x3C }
+  - { offset: 0x8BB84, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40w, symObjAddr: 0x9A1C, symBinAddr: 0x1217C, symSize: 0x30 }
+  - { offset: 0x8BBAD, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40w, symObjAddr: 0x9A4C, symBinAddr: 0x121AC, symSize: 0x28 }
+  - { offset: 0x8BBCC, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnelFeedback stopSendFeedback]', symObjAddr: 0x9A74, symBinAddr: 0x121D4, symSize: 0x10 }
+  - { offset: 0x8BC0E, size: 0x8, addend: 0x0, symName: '___41-[PsiphonTunnelFeedback stopSendFeedback]_block_invoke', symObjAddr: 0x9A84, symBinAddr: 0x121E4, symSize: 0x4 }
+  - { offset: 0x8BC3A, size: 0x8, addend: 0x0, symName: '___41-[PsiphonTunnelFeedback stopSendFeedback]_block_invoke', symObjAddr: 0x9A84, symBinAddr: 0x121E4, symSize: 0x4 }
+  - { offset: 0x8BC4D, size: 0x8, addend: 0x0, symName: '-[PsiphonTunnelFeedback .cxx_destruct]', symObjAddr: 0x9A88, symBinAddr: 0x121E8, symSize: 0x30 }
+  - { offset: 0x8DA6B, size: 0x8, addend: 0x0, symName: '-[PsiphonProviderNoticeHandlerShim initWithLogger:]', symObjAddr: 0x0, symBinAddr: 0x12218, symSize: 0x78 }
+  - { offset: 0x8DB12, size: 0x8, addend: 0x0, symName: '-[PsiphonProviderNoticeHandlerShim initWithLogger:]', symObjAddr: 0x0, symBinAddr: 0x12218, symSize: 0x78 }
+  - { offset: 0x8DB59, size: 0x8, addend: 0x0, symName: '-[PsiphonProviderNoticeHandlerShim notice:]', symObjAddr: 0x78, symBinAddr: 0x12290, symSize: 0x18 }
+  - { offset: 0x8DBA6, size: 0x8, addend: 0x0, symName: '-[PsiphonProviderNoticeHandlerShim .cxx_destruct]', symObjAddr: 0x90, symBinAddr: 0x122A8, symSize: 0xC }
+  - { offset: 0x8DC54, size: 0x8, addend: 0x0, symName: '-[PsiphonProviderNetwork initWithTunnelWholeDevice:logger:]', symObjAddr: 0x0, symBinAddr: 0x122B4, symSize: 0xD8 }
+  - { offset: 0x8DD4C, size: 0x8, addend: 0x0, symName: '-[PsiphonProviderNetwork initWithTunnelWholeDevice:logger:]', symObjAddr: 0x0, symBinAddr: 0x122B4, symSize: 0xD8 }
+  - { offset: 0x8DD9F, size: 0x8, addend: 0x0, symName: '-[PsiphonProviderNetwork logMessage:]', symObjAddr: 0xD8, symBinAddr: 0x1238C, symSize: 0x18 }
+  - { offset: 0x8DDEC, size: 0x8, addend: 0x0, symName: '-[PsiphonProviderNetwork hasNetworkConnectivity]', symObjAddr: 0xF0, symBinAddr: 0x123A4, symSize: 0x20 }
+  - { offset: 0x8DE23, size: 0x8, addend: 0x0, symName: '-[PsiphonProviderNetwork iPv6Synthesize:]', symObjAddr: 0x110, symBinAddr: 0x123C4, symSize: 0xC }
+  - { offset: 0x8DE64, size: 0x8, addend: 0x0, symName: '-[PsiphonProviderNetwork getNetworkID]', symObjAddr: 0x11C, symBinAddr: 0x123D0, symSize: 0xE4 }
+  - { offset: 0x8DEBB, size: 0x8, addend: 0x0, symName: '-[PsiphonProviderNetwork hasIPv6Route]', symObjAddr: 0x200, symBinAddr: 0x124B4, symSize: 0x8 }
+  - { offset: 0x8DEEE, size: 0x8, addend: 0x0, symName: '-[PsiphonProviderNetwork .cxx_destruct]', symObjAddr: 0x208, symBinAddr: 0x124BC, symSize: 0x30 }
+  - { offset: 0x8DFAB, size: 0x8, addend: 0x0, symName: '+[Reachability reachabilityWithHostName:]', symObjAddr: 0x0, symBinAddr: 0x124EC, symSize: 0x68 }
+  - { offset: 0x8DFC5, size: 0x8, addend: 0x0, symName: _kReachabilityChangedNotification, symObjAddr: 0x4B8, symBinAddr: 0x1261C48, symSize: 0x0 }
+  - { offset: 0x8E01F, size: 0x8, addend: 0x0, symName: '+[Reachability reachabilityWithHostName:]', symObjAddr: 0x0, symBinAddr: 0x124EC, symSize: 0x68 }
+  - { offset: 0x8E0E8, size: 0x8, addend: 0x0, symName: '+[Reachability reachabilityWithAddress:]', symObjAddr: 0x68, symBinAddr: 0x12554, symSize: 0x5C }
+  - { offset: 0x8E193, size: 0x8, addend: 0x0, symName: '+[Reachability reachabilityForInternetConnection]', symObjAddr: 0xC4, symBinAddr: 0x125B0, symSize: 0x60 }
+  - { offset: 0x8E1D9, size: 0x8, addend: 0x0, symName: '-[Reachability startNotifier]', symObjAddr: 0x124, symBinAddr: 0x12610, symSize: 0x74 }
+  - { offset: 0x8E2BB, size: 0x8, addend: 0x0, symName: _ReachabilityCallback, symObjAddr: 0x198, symBinAddr: 0x12684, symSize: 0x5C }
+  - { offset: 0x8E30A, size: 0x8, addend: 0x0, symName: '-[Reachability stopNotifier]', symObjAddr: 0x1F4, symBinAddr: 0x126E0, symSize: 0x44 }
+  - { offset: 0x8E382, size: 0x8, addend: 0x0, symName: '-[Reachability dealloc]', symObjAddr: 0x238, symBinAddr: 0x12724, symSize: 0x50 }
+  - { offset: 0x8E3C3, size: 0x8, addend: 0x0, symName: '-[Reachability networkStatusForFlags:]', symObjAddr: 0x288, symBinAddr: 0x12774, symSize: 0x38 }
+  - { offset: 0x8E414, size: 0x8, addend: 0x0, symName: '-[Reachability connectionRequired]', symObjAddr: 0x2C0, symBinAddr: 0x127AC, symSize: 0x34 }
+  - { offset: 0x8E48E, size: 0x8, addend: 0x0, symName: '-[Reachability currentReachabilityStatus]', symObjAddr: 0x2F4, symBinAddr: 0x127E0, symSize: 0x48 }
+  - { offset: 0x8E4FB, size: 0x8, addend: 0x0, symName: '-[Reachability currentReachabilityFlagsToString]', symObjAddr: 0x33C, symBinAddr: 0x12828, symSize: 0xD8 }
+  - { offset: 0x8E619, size: 0x8, addend: 0x0, symName: '+[SBJson4StreamParserState sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x12900, symSize: 0x8 }
+  - { offset: 0x8E627, size: 0x8, addend: 0x0, symName: '+[SBJson4StreamParserStateStart sharedInstance]', symObjAddr: 0x38, symBinAddr: 0x12938, symSize: 0x84 }
+  - { offset: 0x8E651, size: 0x8, addend: 0x0, symName: _sharedInstance.state, symObjAddr: 0x6528, symBinAddr: 0x1305190, symSize: 0x0 }
+  - { offset: 0x8E69D, size: 0x8, addend: 0x0, symName: '+[SBJson4StreamParserStateComplete sharedInstance]', symObjAddr: 0x1F8, symBinAddr: 0x12AF8, symSize: 0x84 }
+  - { offset: 0x8E6C7, size: 0x8, addend: 0x0, symName: _sharedInstance.state.18, symObjAddr: 0x6530, symBinAddr: 0x1305198, symSize: 0x0 }
+  - { offset: 0x8E6EA, size: 0x8, addend: 0x0, symName: '+[SBJson4StreamParserStateError sharedInstance]', symObjAddr: 0x290, symBinAddr: 0x12B90, symSize: 0x84 }
+  - { offset: 0x8E714, size: 0x8, addend: 0x0, symName: _sharedInstance.state.22, symObjAddr: 0x6538, symBinAddr: 0x13051A0, symSize: 0x0 }
+  - { offset: 0x8E737, size: 0x8, addend: 0x0, symName: '+[SBJson4StreamParserStateObjectStart sharedInstance]', symObjAddr: 0x330, symBinAddr: 0x12C30, symSize: 0x84 }
+  - { offset: 0x8E761, size: 0x8, addend: 0x0, symName: _sharedInstance.state.26, symObjAddr: 0x6540, symBinAddr: 0x13051A8, symSize: 0x0 }
+  - { offset: 0x8E784, size: 0x8, addend: 0x0, symName: '+[SBJson4StreamParserStateObjectGotKey sharedInstance]', symObjAddr: 0x438, symBinAddr: 0x12D38, symSize: 0x84 }
+  - { offset: 0x8E7AE, size: 0x8, addend: 0x0, symName: _sharedInstance.state.31, symObjAddr: 0x6548, symBinAddr: 0x13051B0, symSize: 0x0 }
+  - { offset: 0x8E7D1, size: 0x8, addend: 0x0, symName: '+[SBJson4StreamParserStateObjectSeparator sharedInstance]', symObjAddr: 0x52C, symBinAddr: 0x12E2C, symSize: 0x84 }
+  - { offset: 0x8E7FB, size: 0x8, addend: 0x0, symName: _sharedInstance.state.36, symObjAddr: 0x6550, symBinAddr: 0x13051B8, symSize: 0x0 }
+  - { offset: 0x8E81E, size: 0x8, addend: 0x0, symName: '+[SBJson4StreamParserStateObjectGotValue sharedInstance]', symObjAddr: 0x62C, symBinAddr: 0x12F2C, symSize: 0x84 }
+  - { offset: 0x8E848, size: 0x8, addend: 0x0, symName: _sharedInstance.state.41, symObjAddr: 0x6558, symBinAddr: 0x13051C0, symSize: 0x0 }
+  - { offset: 0x8E86B, size: 0x8, addend: 0x0, symName: '+[SBJson4StreamParserStateObjectNeedKey sharedInstance]', symObjAddr: 0x724, symBinAddr: 0x13024, symSize: 0x84 }
+  - { offset: 0x8E897, size: 0x8, addend: 0x0, symName: _sharedInstance.state.46, symObjAddr: 0x6560, symBinAddr: 0x13051C8, symSize: 0x0 }
+  - { offset: 0x8E8BA, size: 0x8, addend: 0x0, symName: '+[SBJson4StreamParserStateArrayStart sharedInstance]', symObjAddr: 0x824, symBinAddr: 0x13124, symSize: 0x84 }
+  - { offset: 0x8E8E6, size: 0x8, addend: 0x0, symName: _sharedInstance.state.50, symObjAddr: 0x6568, symBinAddr: 0x13051D0, symSize: 0x0 }
+  - { offset: 0x8E909, size: 0x8, addend: 0x0, symName: '+[SBJson4StreamParserStateArrayGotValue sharedInstance]', symObjAddr: 0x928, symBinAddr: 0x13228, symSize: 0x84 }
+  - { offset: 0x8E935, size: 0x8, addend: 0x0, symName: _sharedInstance.state.55, symObjAddr: 0x6570, symBinAddr: 0x13051D8, symSize: 0x0 }
+  - { offset: 0x8E958, size: 0x8, addend: 0x0, symName: '+[SBJson4StreamParserStateArrayNeedValue sharedInstance]', symObjAddr: 0xA2C, symBinAddr: 0x1332C, symSize: 0x84 }
+  - { offset: 0x8E984, size: 0x8, addend: 0x0, symName: _sharedInstance.state.60, symObjAddr: 0x6578, symBinAddr: 0x13051E0, symSize: 0x0 }
+  - { offset: 0x8EAFF, size: 0x8, addend: 0x0, symName: '+[SBJson4StreamParserState sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x12900, symSize: 0x8 }
+  - { offset: 0x8EB32, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParserState parser:shouldAcceptToken:]', symObjAddr: 0x8, symBinAddr: 0x12908, symSize: 0x8 }
+  - { offset: 0x8EB7D, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParserState parserShouldReturn:]', symObjAddr: 0x10, symBinAddr: 0x12910, symSize: 0x8 }
+  - { offset: 0x8EBBC, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParserState parser:shouldTransitionTo:]', symObjAddr: 0x18, symBinAddr: 0x12918, symSize: 0x4 }
+  - { offset: 0x8EC03, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParserState needKey]', symObjAddr: 0x1C, symBinAddr: 0x1291C, symSize: 0x8 }
+  - { offset: 0x8EC36, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParserState name]', symObjAddr: 0x24, symBinAddr: 0x12924, symSize: 0xC }
+  - { offset: 0x8EC69, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParserState isError]', symObjAddr: 0x30, symBinAddr: 0x12930, symSize: 0x8 }
+  - { offset: 0x8EC9C, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParserStateStart parser:shouldAcceptToken:]', symObjAddr: 0xBC, symBinAddr: 0x129BC, symSize: 0x10 }
+  - { offset: 0x8ECE9, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParserStateStart parser:shouldTransitionTo:]', symObjAddr: 0xCC, symBinAddr: 0x129CC, symSize: 0x120 }
+  - { offset: 0x8ED48, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParserStateStart name]', symObjAddr: 0x1EC, symBinAddr: 0x12AEC, symSize: 0xC }
+  - { offset: 0x8ED7B, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParserStateComplete name]', symObjAddr: 0x27C, symBinAddr: 0x12B7C, symSize: 0xC }
+  - { offset: 0x8EDAE, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParserStateComplete parserShouldReturn:]', symObjAddr: 0x288, symBinAddr: 0x12B88, symSize: 0x8 }
+  - { offset: 0x8EDED, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParserStateError name]', symObjAddr: 0x314, symBinAddr: 0x12C14, symSize: 0xC }
+  - { offset: 0x8EE20, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParserStateError parserShouldReturn:]', symObjAddr: 0x320, symBinAddr: 0x12C20, symSize: 0x8 }
+  - { offset: 0x8EE5F, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParserStateError isError]', symObjAddr: 0x328, symBinAddr: 0x12C28, symSize: 0x8 }
+  - { offset: 0x8EE92, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParserStateObjectStart name]', symObjAddr: 0x3B4, symBinAddr: 0x12CB4, symSize: 0xC }
+  - { offset: 0x8EEC5, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParserStateObjectStart parser:shouldAcceptToken:]', symObjAddr: 0x3C0, symBinAddr: 0x12CC0, symSize: 0x18 }
+  - { offset: 0x8EF12, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParserStateObjectStart parser:shouldTransitionTo:]', symObjAddr: 0x3D8, symBinAddr: 0x12CD8, symSize: 0x58 }
+  - { offset: 0x8EF5D, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParserStateObjectStart needKey]', symObjAddr: 0x430, symBinAddr: 0x12D30, symSize: 0x8 }
+  - { offset: 0x8EF90, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParserStateObjectGotKey name]', symObjAddr: 0x4BC, symBinAddr: 0x12DBC, symSize: 0xC }
+  - { offset: 0x8EFC3, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParserStateObjectGotKey parser:shouldAcceptToken:]', symObjAddr: 0x4C8, symBinAddr: 0x12DC8, symSize: 0xC }
+  - { offset: 0x8F010, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParserStateObjectGotKey parser:shouldTransitionTo:]', symObjAddr: 0x4D4, symBinAddr: 0x12DD4, symSize: 0x58 }
+  - { offset: 0x8F05B, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParserStateObjectSeparator name]', symObjAddr: 0x5B0, symBinAddr: 0x12EB0, symSize: 0xC }
+  - { offset: 0x8F08E, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParserStateObjectSeparator parser:shouldAcceptToken:]', symObjAddr: 0x5BC, symBinAddr: 0x12EBC, symSize: 0x18 }
+  - { offset: 0x8F0DB, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParserStateObjectSeparator parser:shouldTransitionTo:]', symObjAddr: 0x5D4, symBinAddr: 0x12ED4, symSize: 0x58 }
+  - { offset: 0x8F126, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParserStateObjectGotValue name]', symObjAddr: 0x6B0, symBinAddr: 0x12FB0, symSize: 0xC }
+  - { offset: 0x8F159, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParserStateObjectGotValue parser:shouldAcceptToken:]', symObjAddr: 0x6BC, symBinAddr: 0x12FBC, symSize: 0x10 }
+  - { offset: 0x8F1A6, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParserStateObjectGotValue parser:shouldTransitionTo:]', symObjAddr: 0x6CC, symBinAddr: 0x12FCC, symSize: 0x58 }
+  - { offset: 0x8F1F1, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParserStateObjectNeedKey name]', symObjAddr: 0x7A8, symBinAddr: 0x130A8, symSize: 0xC }
+  - { offset: 0x8F225, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParserStateObjectNeedKey parser:shouldAcceptToken:]', symObjAddr: 0x7B4, symBinAddr: 0x130B4, symSize: 0x10 }
+  - { offset: 0x8F275, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParserStateObjectNeedKey parser:shouldTransitionTo:]', symObjAddr: 0x7C4, symBinAddr: 0x130C4, symSize: 0x58 }
+  - { offset: 0x8F2C3, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParserStateObjectNeedKey needKey]', symObjAddr: 0x81C, symBinAddr: 0x1311C, symSize: 0x8 }
+  - { offset: 0x8F2F7, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParserStateArrayStart name]', symObjAddr: 0x8A8, symBinAddr: 0x131A8, symSize: 0xC }
+  - { offset: 0x8F32B, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParserStateArrayStart parser:shouldAcceptToken:]', symObjAddr: 0x8B4, symBinAddr: 0x131B4, symSize: 0x1C }
+  - { offset: 0x8F37B, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParserStateArrayStart parser:shouldTransitionTo:]', symObjAddr: 0x8D0, symBinAddr: 0x131D0, symSize: 0x58 }
+  - { offset: 0x8F3C9, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParserStateArrayGotValue name]', symObjAddr: 0x9AC, symBinAddr: 0x132AC, symSize: 0xC }
+  - { offset: 0x8F3FD, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParserStateArrayGotValue parser:shouldAcceptToken:]', symObjAddr: 0x9B8, symBinAddr: 0x132B8, symSize: 0x10 }
+  - { offset: 0x8F44D, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParserStateArrayGotValue parser:shouldTransitionTo:]', symObjAddr: 0x9C8, symBinAddr: 0x132C8, symSize: 0x64 }
+  - { offset: 0x8F49F, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParserStateArrayNeedValue name]', symObjAddr: 0xAB0, symBinAddr: 0x133B0, symSize: 0xC }
+  - { offset: 0x8F4D3, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParserStateArrayNeedValue parser:shouldAcceptToken:]', symObjAddr: 0xABC, symBinAddr: 0x133BC, symSize: 0x1C }
+  - { offset: 0x8F523, size: 0x8, addend: 0x0, symName: '-[SBJson4StreamParserStateArrayNeedValue parser:shouldTransitionTo:]', symObjAddr: 0xAD8, symBinAddr: 0x133D8, symSize: 0x58 }
+  - { offset: 0x8F689, size: 0x8, addend: 0x0, symName: '+[Backups excludeFileFromBackup:err:]', symObjAddr: 0x0, symBinAddr: 0x13430, symSize: 0x90 }
+  - { offset: 0x8F697, size: 0x8, addend: 0x0, symName: '+[Backups excludeFileFromBackup:err:]', symObjAddr: 0x0, symBinAddr: 0x13430, symSize: 0x90 }
+  - { offset: 0x8F76E, size: 0x8, addend: 0x0, symName: '+[Redactor errorDescription:]', symObjAddr: 0x0, symBinAddr: 0x134C0, symSize: 0x124 }
+  - { offset: 0x8F783, size: 0x8, addend: 0x0, symName: '+[Redactor errorDescription:]', symObjAddr: 0x0, symBinAddr: 0x134C0, symSize: 0x124 }
 ...
